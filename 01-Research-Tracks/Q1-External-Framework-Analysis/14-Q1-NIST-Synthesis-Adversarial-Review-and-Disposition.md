@@ -35,7 +35,7 @@ The reviewer reported that some references were verified only through secondary 
 | MAP 2.2 | 26 | Verified |
 | MAP 3.5 | 27 | Verified |
 | MEASURE 2.9 | 29 | Verified |
-| MEASURE 3.3 | 30 | Verified |
+| MEASURE 3.3 | 31 | Verified |
 | MANAGE 1.1 | 32 | Verified |
 | MANAGE 1.3 | 32 | Verified |
 | MANAGE 2.4 | 32 | Verified |
@@ -65,7 +65,7 @@ Primary source: [NIST AI 100-1 — Artificial Intelligence Risk Management Frame
 - File 13 revised after adversarial review.
 - Critical source references independently rechecked against the official PDF.
 - Independent second-coder review remains pending.
-- ISO/IEC 42001 public-preview inspection remains pending.
+- ISO/IEC 42001 substantive preview inspection remains paused — Access / Terms Blocked; no preview content was processed.
 - Comparative memo remains unchanged pending completion of the remaining Q1 review work.
 
 ---

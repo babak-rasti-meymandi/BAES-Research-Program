@@ -10,7 +10,7 @@ Prioritize work by research value, evidence readiness, duplication risk, and fea
 
 | Priority | Track | Working question | Initial status | Repository |
 |---|---|---|---|---|
-| 1 | Q1 — External Framework Analysis | What can be responsibly established about relevant coverage and structural differences in NIST AI RMF 1.0 and ISO/IEC 42001:2023 using accessible public sources, beyond the earlier C1–C20 exercise? | Proposed; scoping required | BAES-Research-Program |
+| 1 | Q1 — External Framework Analysis | What can be responsibly established about relevant coverage and structural differences in NIST AI RMF 1.0 and ISO/IEC 42001:2023 using accessible public sources, beyond the earlier C1–C20 exercise? | Approved / active (2026-11-07) | BAES-Research-Program |
 | 2 | Q2 — Academic Literature | What does the research literature establish about separation of duties, least privilege, meaningful human control, automation levels, assurance, and responsibility gaps? | Proposed | BAES-Research-Program |
 | 3 | Q3 — Empirical AI-Assisted Engineering | What empirical evidence exists about intent preservation, authorization, delegation, traceability, and failure in AI-assisted engineering? | Proposed | BAES-Research-Program |
 | 4 | Q6 — Assurance Cases | How do assurance-case methods (including GSN/CAE where relevant) structure claims, arguments, evidence, and uncertainty? | Proposed | BAES-Research-Program |
@@ -36,11 +36,11 @@ Q1 must not silently reuse the historical C1–C20 set as a universal or neutral
 - Establish a project registry linking existing work.
 - Confirm repository visibility and publication boundaries.
 
-**Stage B — Q1 scoping**
+**Stage B — Q1 execution (active)**
 - Audit prior work and define the incremental research question.
 - Define separate source-handling methods for NIST and ISO.
 - Set source eligibility, unit of analysis, extraction fields, and stopping rules.
-- Obtain Founder approval before substantive coding.
+- Q1 Protocol v1.0 approved on 2026-11-07; continue source extraction within its boundaries.
 
 **Stage C — Literature and empirical evidence**
 - Conduct Q2 and Q3 only after search protocols and inclusion/exclusion criteria are documented.

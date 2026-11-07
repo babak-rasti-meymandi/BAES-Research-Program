@@ -219,7 +219,7 @@ The Core therefore provides meaningful source-grounded coverage of organizationa
 
 This conclusion is limited to the NIST AI RMF 1.0 Core and the source material examined. It is not a judgment of NIST's overall adequacy, implementation effectiveness, or comparative standing against ISO/IEC 42001 or BAES.
 
-## 8. Review questions for adversarial examination
+## 8. Further review questions
 
 The following questions should be used to challenge this synthesis before cross-framework comparison:
 
@@ -258,4 +258,4 @@ The following questions should be used to challenge this synthesis before cross-
 
 ---
 
-**Control note:** This synthesis is a first-pass NIST-only analysis. Do not update the comparative memo or make external claims until adversarial review, source rechecks, and the ISO public-preview work have been completed to the extent feasible.
+**Control note:** This remains a revised first-pass NIST-only analysis. Do not update the comparative memo or make external claims until the remaining systematic verification, independent review (if feasible), and ISO public-preview work have been completed to the extent feasible.

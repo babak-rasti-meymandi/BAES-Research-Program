@@ -84,8 +84,23 @@ These are scope distinctions, not negative ratings. Any claim of absence require
 - [ ] Adversarially review interpretations that might overstate task-level authorization.
 - [ ] Reconcile all new observations against the earlier C1–C20 mapping without repeating or silently recoding it.
 
-## 8. Current edition status
+## 8. Source locations used
+
+- Document identity, date, and update/version policy: NIST AI 100-1, cover and pp. i–ii.
+- Stated purpose and voluntary attributes: NIST AI 100-1, pp. 1–2.
+- Core structure and four Functions: NIST AI 100-1, pp. 20–21.
+- GOVERN categories and subcategories: NIST AI 100-1, pp. 22–23.
+- MAP categories and subcategories: NIST AI 100-1, pp. 25–27.
+- MEASURE categories and subcategories: NIST AI 100-1, pp. 28–30.
+- MANAGE categories and subcategories; Profiles: NIST AI 100-1, pp. 31–34.
+- AI actor roles and human-AI interaction: NIST AI 100-1, pp. 35–41.
+
+Primary source: [NIST AI 100-1 PDF](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf). Publication metadata: [NIST publication record](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10).
+
+## 9. Current edition status
 
 **[EXT]** NIST's AI RMF resource page, checked on 2026-11-07, states that AI RMF 1.0 is being updated and a revised version is in progress.
 
 Q1 remains scoped to AI RMF 1.0 as a fixed historical edition. The current revision status must be stated in any final report that could otherwise imply AI RMF 1.0 is NIST's latest position.
+
+Current status source: [NIST AI RMF Core resource page](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/), checked 2026-11-07.

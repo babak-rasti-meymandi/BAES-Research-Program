@@ -249,7 +249,7 @@ The following questions should be used to challenge this synthesis before cross-
 
 ## 10. Sources and linked records
 
-- NIST AI 100-1, *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*, January 2023. [Official PDF](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf). Relevant printed pages: Core structure p. 20; MAP 2.2 p. 26; MAP 3.5 p. 27; MEASURE 2.9 p. 29; MEASURE 3.3 p. 30; MANAGE 1.1, 1.3, 2.4, and 4.1 pp. 32–33.
+- NIST AI 100-1, *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*, January 2023. [Official PDF](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf). Relevant printed pages: Core structure p. 20; MAP 2.2 p. 26; MAP 3.5 p. 27; MEASURE 2.9 p. 29; MEASURE 3.3 p. 31; MANAGE 1.1, 1.3, 2.4, and 4.1 pp. 32–33.
 - [09 — GOVERN extraction matrix](09-Q1-NIST-Core-Extraction-Matrix-GOVERN.md).
 - [10 — MAP extraction matrix](10-Q1-NIST-Core-Extraction-Matrix-MAP.md).
 - [11 — MEASURE extraction matrix](11-Q1-NIST-Core-Extraction-Matrix-MEASURE.md).
@@ -258,4 +258,4 @@ The following questions should be used to challenge this synthesis before cross-
 
 ---
 
-**Control note:** This remains a revised first-pass NIST-only analysis. Do not update the comparative memo or make external claims until the remaining systematic verification, independent review (if feasible), and ISO public-preview work have been completed to the extent feasible.
+**Control note:** This remains a revised first-pass NIST-only analysis. Do not update the comparative memo or make external claims until the remaining systematic verification, independent review (if feasible), and the ISO access/terms blocker has been resolved or the workstream has been formally retained as non-assessable.

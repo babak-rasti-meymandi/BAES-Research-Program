@@ -5,7 +5,7 @@
 **Protocol:** Q1 Research Protocol v1.0  
 **Source ID:** Q1-NIST-001  
 **Primary source:** [NIST AI 100-1, AI RMF 1.0 (PDF)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)  
-**Native source location:** Part 2, Section 5.2, Table 2, printed pp. 25–27 (PDF pages 29–32)
+**Native source location:** Part 2, Section 5.2, Table 2, printed pp. 26–28 (PDF pages 30–32)
 
 ## 1. Purpose and method
 
@@ -63,7 +63,7 @@ For this tranche, the complete public NIST AI RMF 1.0 PDF is available. The MAP 
 | MAP 4.1 | 27 | Approaches for mapping AI-technology and legal risks of all system components, including third-party data/software and rights-infringement risks, are established, followed, and documented. | D2, D6, D7, D8, D9 | Explicit | Extends risk mapping to system components and third-party dependencies. It does not itself define who may authorize a particular engineering change involving those components. |
 | MAP 4.2 | 27 | Internal risk controls for AI-system components, including third-party AI technologies, are identified and documented. | D2, D6, D8, D9 | Explicit | Explicit identification/documentation of component-level internal risk controls. The Subcategory does not specify the controls' exact technical form or the authority required to modify them. |
 | MAP 5.1 | 27 | Likelihood and magnitude of beneficial and harmful impacts are identified and documented using expected use, analogous prior uses, incident reports, external feedback, or other data. | D2, D6, D8, D9 | Explicit | Direct impact characterization and evidence inputs. It does not establish a universal threshold for accepting impacts or the identity of the final decision-maker for every use context. |
-| MAP 5.2 | 27 | Practices and personnel support regular engagement with relevant AI actors and documented integration of feedback about positive, negative, and unanticipated impacts. | D4, D6, D8, D9 | Explicit | Addresses engagement capacity and feedback integration. Unlike GOVERN 5.2, this wording does not itself use the term “adjudicated”; avoid importing that qualifier into MAP 5.2. It is not a general agent-authorization mechanism. |
+| MAP 5.2 | 28 | Practices and personnel support regular engagement with relevant AI actors and documented integration of feedback about positive, negative, and unanticipated impacts. | D4, D6, D8, D9 | Explicit | Addresses engagement capacity and feedback integration. Unlike GOVERN 5.2, this wording does not itself use the term “adjudicated”; avoid importing that qualifier into MAP 5.2. It is not a general agent-authorization mechanism. |
 
 ## 5. First-tranche observations
 

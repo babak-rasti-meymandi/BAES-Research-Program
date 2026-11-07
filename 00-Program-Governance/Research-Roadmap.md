@@ -18,16 +18,16 @@ Prioritize work by research value, evidence readiness, duplication risk, and fea
 | 6 | Q5 — Failure Modes | What failure modes arise in AI-assisted engineering, and what detection or mitigation evidence exists? | Proposed | BAES-Research-Program |
 | 7 | Q4 — Foundation-Model Terminology | How do authoritative public sources use the term “foundation model,” and what ambiguity remains in the wider technical literature? | Proposed; low priority | BAES-Research-Program |
 
-## 3. Q1 non-duplication gate
+## 3. Q1 non-duplication control (completed before activation)
 
-Before Q1 begins, review the existing public authorization-evaluation repository and create a gap/overlap table. At minimum, distinguish:
+The following prior-work distinctions were recorded in the Q1 Prior-Work Gap and Overlap Matrix before substantive Q1 extraction began:
 - the historical C1–C20 criterion-conditioned mapping already performed;
 - the NIST AI RMF 1.0 Core mapping and its investigator-side calibration history;
 - the S01 event-evidence sufficiency analysis;
 - the limited ISO/IEC 42001:2023 access status and absence of clause-level judgment;
 - the broader questions that remain unanswered.
 
-Q1 must not silently reuse the historical C1–C20 set as a universal or neutral framework comparison instrument. If it uses any prior result, cite and label it as prior work, preserve its scope, and do not recode it as a new finding.
+Q1 must not silently reuse the historical C1–C20 set as a universal or neutral framework comparison instrument. Any prior result used must be cited and labelled as prior work, preserving its original scope and limitations.
 
 ## 4. Suggested sequence
 

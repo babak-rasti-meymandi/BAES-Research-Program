@@ -1,11 +1,15 @@
 # Q1 — External Framework Analysis
 
-**Status:** Proposed; scoping required. Research has not started under this track.
+**Status:** Approved / active — execution authorized 2026-11-07.
 
 ## Scoping records
 
 - [Prior-work gap and overlap matrix](00-Prior-Work-Gap-Overlap-Matrix.md)
-- [Q1 research protocol — draft v0.1](01-Q1-Research-Protocol-Draft-v0.1.md)
+- [Q1 research protocol — draft v0.1 (historical)](01-Q1-Research-Protocol-Draft-v0.1.md)
+- [Q1 research protocol v1.0 (approved)](02-Q1-Research-Protocol-v1.0.md)
+- [Q1 source register](03-Q1-Source-Register.md)
+- [NIST AI RMF 1.0 — initial observations](04-NIST-AI-RMF-1.0-Initial-Observations.md)
+- [ISO/IEC 42001 — public-source boundary](05-ISO-IEC-42001-Public-Source-Boundary.md)
 
 ## 1. Working question
 

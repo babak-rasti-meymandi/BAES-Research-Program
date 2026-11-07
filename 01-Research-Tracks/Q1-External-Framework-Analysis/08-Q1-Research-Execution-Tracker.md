@@ -63,7 +63,7 @@ The following work is recorded as completed as of 2026-11-07. “Completed” re
 | A04 | Official source register established for NIST and ISO/IEC. | [03 — Q1 Source Register](03-Q1-Source-Register.md) | Active register; current entries and access boundaries recorded. |
 | A05 | Initial NIST AI RMF 1.0 observations recorded. | [04 — NIST Initial Observations](04-NIST-AI-RMF-1.0-Initial-Observations.md) | Preliminary observations, not complete extraction. |
 | A06 | ISO/IEC 42001 public-source boundary and publisher AI-use restriction documented. | [05 — ISO Public-Source Boundary](05-ISO-IEC-42001-Public-Source-Boundary.md) | Access / Terms Blocked; no substantive preview content processed. Existing public metadata remains narrowly usable as previously recorded; no clause-level conclusions. |
-| A07 | NIST Core inventory transcribed in native structure. | [06 — NIST Core Inventory](06-NIST-Core-Category-Subcategory-Inventory.md) | 4 Functions, 19 Categories, 72 Subcategory identifiers; mechanical count check found 72 unique identifiers without duplicates. This is an inventory, not yet a fully source-location-verified analytical extraction. |
+| A07 | NIST Core inventory transcribed in native structure. | [06 — NIST Core Inventory](06-NIST-Core-Category-Subcategory-Inventory.md) | 4 Functions, 19 Categories, 72 Subcategory identifiers; mechanical count check found 72 unique identifiers without duplicates. A page-level source-location audit of all 72 extraction rows has now been completed against the official PDF tables; this does not yet constitute full semantic or claim-level verification. |
 | A08 | Preliminary public-source comparison memo produced. | [07 — Preliminary Comparison Memo](07-Preliminary-Framework-Comparison-Memo.md) | Preliminary and asymmetric; not final synthesis. |
 | A09 | Q1 track activated in program governance records. | [Program Research Roadmap](../../00-Program-Governance/Research-Roadmap.md) and [Decision Register](../../00-Program-Governance/Decision-Register.md), D-005 | Approved / active; NIST 1.0 fixed historical edition; ISO limited to authorized public materials. |
 
@@ -83,7 +83,7 @@ The following work is recorded as completed as of 2026-11-07. “Completed” re
 |---|---|---|
 | Scope / non-duplication | Established | The prior-work boundary is documented; do not reopen C1–C20 as Q1's analytical instrument. |
 | Protocol | Approved | Execute under v1.0 unless a material amendment is first recorded and approved. |
-| NIST source inventory | Initial inventory and first-pass extraction complete | All 72 native Core Subcategories are inventoried and mapped in files 09–12, with native source locations recorded; independent review remains pending. |
+| NIST source inventory | Initial inventory and first-pass extraction complete; page-level source-location audit completed | All 72 native Core Subcategories are inventoried and mapped in files 09–12. Printed page references were checked against the official PDF tables and identified errors corrected; semantic/claim-level verification and independent review remain pending. |
 | NIST dimension analysis | First-pass extraction and revised within-NIST synthesis complete | All 72 NIST Core Subcategories have first-pass mappings in files 09–12. File 13 was revised after one adversarial review; critical references were independently rechecked against the official PDF. Review disposition is recorded in file 14. Independent second-coder review remains pending. |
 | ISO official records | Initial review complete | Document identity and broad purpose are supported by official public records. |
 | ISO preview inspection | Paused — Access / Terms Blocked | Do not inspect or process substantive preview content with AI unless a clearly applicable permission/exception is established and any required protocol amendment is approved. |
@@ -157,7 +157,7 @@ The following queue reflects the actual state on 2026-11-07 and the approved pro
 ### V1 — NIST verification and adversarial review
 
 - [x] Recheck critical NIST source identity, edition, and cited locations discussed in the adversarial review directly against the official NIST AI 100-1 PDF.
-- [ ] Complete a systematic source-location recheck of every material claim across files 09–13.
+- [x] Verify printed page references for all 72 Subcategory rows in files 09–12 against the official PDF tables; correct identified page-reference errors in files 06 and 09–12.\n- [ ] Complete a systematic source-location and substantive-claim recheck across files 09–13.
 - [x] Challenge interpretations that might be overstated as explicit approval or authorization requirements through the first adversarial review; remaining issues and independent review are still open.
 - [x] Record the ISO access/terms stop and preserve ISO unknowns without substantive preview processing.
 - [ ] Review NIST non-equivalence claims and alternative readings.
@@ -232,7 +232,7 @@ No material protocol deviation is recorded in this tracker at opening. Add a dat
 | 2026-11-07 | Updated after fourth NIST extraction tranche; recorded completion of first-pass extraction across all 72 NIST Core Subcategories and the transition to synthesis/review. |
 | 2026-11-07 | Updated after first-pass within-NIST synthesis; recorded synthesis completion and pending adversarial/independent review. |
 | 2026-11-07 | Updated after first adversarial review; recorded disposition, synthesis corrections, and direct primary-source recheck. |
-| 2026-11-07 | Updated after Founder direction on ISO access/terms; paused substantive ISO preview work, recorded the publisher restriction, and redirected remaining Q1 execution to NIST validation. |
+| 2026-11-07 | Updated after Founder direction on ISO access/terms; paused substantive ISO preview work, recorded the publisher restriction, and redirected remaining Q1 execution to NIST validation. |\n| 2026-11-07 | Completed page-level source-location audit of all 72 NIST Subcategory rows against the official PDF tables; corrected printed-page ranges in the inventory and affected matrices, and corrected the MEASURE 3.3 citation in files 13–14. Full semantic/claim-level audit remains open. |
 
 ---
 

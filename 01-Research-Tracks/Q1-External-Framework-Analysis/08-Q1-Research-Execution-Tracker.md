@@ -4,7 +4,7 @@
 **Status:** Active  
 **Protocol baseline:** Q1 Research Protocol v1.0 (approved 2026-11-07)  
 **Tracker opened:** 2026-11-07  
-**Last updated:** 2026-11-07 (adversarial review evaluated; synthesis revised and primary-source rechecked)  
+**Last updated:** 2026-11-07 (ISO access/terms stop recorded; NIST validation remains active)  
 **Controlling repository:** `babak-rasti-meymandi/BAES-Research-Program`
 
 ## 1. Purpose and control
@@ -62,7 +62,7 @@ The following work is recorded as completed as of 2026-11-07. “Completed” re
 | A03 | Q1 Protocol v1.0 approved and execution authorized. | [02 — Q1 Research Protocol v1.0](02-Q1-Research-Protocol-v1.0.md) | Approved 2026-11-07; controlling protocol. |
 | A04 | Official source register established for NIST and ISO/IEC. | [03 — Q1 Source Register](03-Q1-Source-Register.md) | Active register; current entries and access boundaries recorded. |
 | A05 | Initial NIST AI RMF 1.0 observations recorded. | [04 — NIST Initial Observations](04-NIST-AI-RMF-1.0-Initial-Observations.md) | Preliminary observations, not complete extraction. |
-| A06 | ISO/IEC 42001 public-source boundary documented. | [05 — ISO Public-Source Boundary](05-ISO-IEC-42001-Public-Source-Boundary.md) | Full final normative text not examined; clause-level conclusions remain access-limited/unknown. |
+| A06 | ISO/IEC 42001 public-source boundary and publisher AI-use restriction documented. | [05 — ISO Public-Source Boundary](05-ISO-IEC-42001-Public-Source-Boundary.md) | Access / Terms Blocked; no substantive preview content processed. Existing public metadata remains narrowly usable as previously recorded; no clause-level conclusions. |
 | A07 | NIST Core inventory transcribed in native structure. | [06 — NIST Core Inventory](06-NIST-Core-Category-Subcategory-Inventory.md) | 4 Functions, 19 Categories, 72 Subcategory identifiers; mechanical count check found 72 unique identifiers without duplicates. This is an inventory, not yet a fully source-location-verified analytical extraction. |
 | A08 | Preliminary public-source comparison memo produced. | [07 — Preliminary Comparison Memo](07-Preliminary-Framework-Comparison-Memo.md) | Preliminary and asymmetric; not final synthesis. |
 | A09 | Q1 track activated in program governance records. | [Program Research Roadmap](../../00-Program-Governance/Research-Roadmap.md) and [Decision Register](../../00-Program-Governance/Decision-Register.md), D-005 | Approved / active; NIST 1.0 fixed historical edition; ISO limited to authorized public materials. |
@@ -86,7 +86,7 @@ The following work is recorded as completed as of 2026-11-07. “Completed” re
 | NIST source inventory | Initial inventory and first-pass extraction complete | All 72 native Core Subcategories are inventoried and mapped in files 09–12, with native source locations recorded; independent review remains pending. |
 | NIST dimension analysis | First-pass extraction and revised within-NIST synthesis complete | All 72 NIST Core Subcategories have first-pass mappings in files 09–12. File 13 was revised after one adversarial review; critical references were independently rechecked against the official PDF. Review disposition is recorded in file 14. Independent second-coder review remains pending. |
 | ISO official records | Initial review complete | Document identity and broad purpose are supported by official public records. |
-| ISO preview inspection | Pending | Exact publicly visible contents and structural information still need to be inspected and recorded. |
+| ISO preview inspection | Paused — Access / Terms Blocked | Do not inspect or process substantive preview content with AI unless a clearly applicable permission/exception is established and any required protocol amendment is approved. |
 | Cross-framework comparison | Preliminary only | Existing memo records only bounded first observations; it is not final. |
 | Adversarial review | First review completed; corrections incorporated | One reviewer report was evaluated and its accepted/qualified findings recorded in [14 — Adversarial Review and Disposition](14-Q1-NIST-Synthesis-Adversarial-Review-and-Disposition.md). This is not independent second-coder validation. |
 | Independent review | Not arranged / pending feasibility | If unavailable, final reporting must identify the work as investigator-side and exploratory. |
@@ -113,16 +113,16 @@ The following queue reflects the actual state on 2026-11-07 and the approved pro
 
 **Exit condition:** Every included NIST finding has a stable record, native location, source verification status, analytical dimension, and limitation.
 
-### I1 — Inspect the ISO Online Browsing Platform preview
+### I1 — ISO access / terms review (paused)
 
-- [ ] Open the official ISO preview entry associated with ISO/IEC 42001:2023.
-- [ ] Record the exact portions/structural elements visible in the preview, with access date and source location.
-- [ ] Distinguish visible final-edition material from catalogue metadata, preview interface information, and secondary commentary.
-- [ ] Determine whether any additional structural description can be reported without reconstructing inaccessible clauses.
-- [ ] Update the ISO source register and public-source boundary record.
-- [ ] Preserve UNKNOWN / access-limited for all details not actually visible or otherwise supported by an authorized source.
+- [x] Check the official ISO copyright page and Online Browsing Platform terms for AI/ML-use restrictions.
+- [x] Record the access/terms restriction and pause substantive preview inspection; no preview content was processed.
+- [ ] Verify whether the exact relevant material is available through ISO Open Data and whether its specific terms permit the intended AI-assisted research use.
+- [ ] Alternatively, obtain express written authorization/licensing for the intended use.
+- [ ] Reopen substantive ISO work only after the permitted-use basis is documented and any required protocol amendment is approved.
+- [x] Preserve UNKNOWN / access-limited for all normative details not examined.
 
-**Exit condition:** The record states exactly what was and was not publicly examinable; no missing normative text is inferred.
+**Exit condition:** Until a permitted route is established, the ISO workstream remains Access / Terms Blocked. No missing normative text is inferred and no negative finding is made about the standard.
 
 ### I2 — Assess secondary-source usefulness (only if needed)
 
@@ -136,30 +136,31 @@ The following queue reflects the actual state on 2026-11-07 and the approved pro
 ### S1 — Complete within-framework findings
 
 - [x] Finish a first-pass NIST synthesis by analytical dimension; adversarial review and verification remain.
-- [ ] State ISO findings only to the depth supported by the verified public materials.
-- [ ] Keep the two within-framework descriptions separate before comparison.
+- [x] Record the ISO workstream as Access / Terms Blocked; retain only previously established public metadata and do not process preview content.
+- [ ] Keep the NIST findings distinct from any limited ISO public-metadata description.
 - [ ] Identify dimensions that are non-comparable or not assessable.
 
 **Exit condition:** Each framework has a bounded description supported by its own source record.
 
-### C1 — Revise comparative synthesis
+### C1 — Comparative synthesis (deferred pending permitted ISO evidence)
 
-- [ ] Update the preliminary memo only after new source evidence is recorded.
+- [ ] Do not advance clause-level comparison while ISO remains Access / Terms Blocked.
+- [ ] If the ISO restriction is resolved through a documented permitted route, update the preliminary memo only after new source evidence is recorded.
 - [ ] Compare only dimensions with defensible evidence on both sides.
 - [ ] Preserve evidence asymmetry; do not turn missing ISO access into a negative finding.
 - [ ] Distinguish organizational governance/oversight from task-level authorization of engineering actions.
 - [ ] Include counterevidence, alternative interpretations, and unresolved questions.
 - [ ] Do not rank frameworks or issue a composite score.
 
-**Exit condition:** Every comparative statement identifies its basis and limits; unsupported comparisons are labelled non-assessable or omitted.
+**Exit condition:** Every comparative statement identifies its basis and limits; unsupported comparisons are labelled non-assessable or omitted. Until ISO access is resolved, only an explicitly asymmetric, limitations-first comparison may be considered.
 
-### V1 — Verification and adversarial review
+### V1 — NIST verification and adversarial review
 
-- [x] Recheck critical source identity, edition, and cited locations discussed in the adversarial review directly against the official NIST AI 100-1 PDF.
+- [x] Recheck critical NIST source identity, edition, and cited locations discussed in the adversarial review directly against the official NIST AI 100-1 PDF.
 - [ ] Complete a systematic source-location recheck of every material claim across files 09–13.
 - [x] Challenge interpretations that might be overstated as explicit approval or authorization requirements through the first adversarial review; remaining issues and independent review are still open.
-- [ ] Check that ISO claims do not exceed the preview/public-source boundary.
-- [ ] Review non-equivalence claims and alternative readings.
+- [x] Record the ISO access/terms stop and preserve ISO unknowns without substantive preview processing.
+- [ ] Review NIST non-equivalence claims and alternative readings.
 - [ ] Seek independent second-coder/reviewer input if feasible; if not obtained, record that limitation explicitly.
 
 **Exit condition:** Verification status is recorded for each material finding, and unresolved issues remain visible.
@@ -194,7 +195,7 @@ Q1 may be considered complete only when the final record:
 
 | Item | Current status | Required handling |
 |---|---|---|
-| Full ISO/IEC 42001:2023 normative text | Not examined / access-limited | Do not reconstruct clauses; report unknowns unless authorized access is obtained and a protocol amendment is approved. |
+| ISO preview / AI-assisted use | Access / Terms Blocked | ISO publisher terms restrict AI/ML-related use of ISO content, subject to a stated Open Data exception and its terms. Do not process preview content unless the exact material and permission are verified or express authorization is obtained. |
 | NIST AI RMF 1.0 revision | Public update notice recorded | Keep Q1 fixed to 1.0; do not silently substitute a later edition. |
 | Independent reviewer | Not arranged | Seek only if feasible; never describe self-review as independent validation. |
 | Historical C1–C20 work | Existing prior work | Cite with original scope; do not repeat or treat as neutral/exhaustive Q1 instrument. |
@@ -209,7 +210,7 @@ Pause and seek Founder direction if any Q1 Protocol v1.0 stop condition is reach
 |---|---|---|
 | 2026-11-07 | Q1 execution authorized | Decision Register D-005; Protocol v1.0 approved. |
 | 2026-11-07 | NIST edition boundary | Analyze AI RMF 1.0 as a fixed historical edition; disclose the public notice that revision is in progress. |
-| 2026-11-07 | ISO access boundary | Use authorized public materials; no clause reconstruction or clause-level completeness claim. |
+| 2026-11-07 | ISO access / terms stop | Official ISO copyright and OBP terms were checked; AI/ML-related use is restricted except where the specific ISO Open Data terms apply or express authorization is obtained. Founder approved recording the workstream as Access / Terms Blocked and continuing Q1 on NIST. No substantive preview content was processed. |
 | 2026-11-07 | Initial execution baseline | Protocol, source register, initial NIST observations, ISO public-source boundary, NIST native inventory, and preliminary comparison memo recorded. |
 | 2026-11-07 | NIST GOVERN extraction tranche | First-pass source-checked mapping of 19 GOVERN Subcategories completed and recorded in file 09; MAP, MEASURE, and MANAGE remained open at that point. |
 | 2026-11-07 | NIST MAP extraction tranche | First-pass source-checked mapping of 18 MAP Subcategories completed and recorded in file 10; MEASURE and MANAGE remained open at that point. |
@@ -231,6 +232,7 @@ No material protocol deviation is recorded in this tracker at opening. Add a dat
 | 2026-11-07 | Updated after fourth NIST extraction tranche; recorded completion of first-pass extraction across all 72 NIST Core Subcategories and the transition to synthesis/review. |
 | 2026-11-07 | Updated after first-pass within-NIST synthesis; recorded synthesis completion and pending adversarial/independent review. |
 | 2026-11-07 | Updated after first adversarial review; recorded disposition, synthesis corrections, and direct primary-source recheck. |
+| 2026-11-07 | Updated after Founder direction on ISO access/terms; paused substantive ISO preview work, recorded the publisher restriction, and redirected remaining Q1 execution to NIST validation. |
 
 ---
 

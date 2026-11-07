@@ -1,6 +1,6 @@
 # Q1 — NIST AI RMF 1.0 Core: Within-Framework Synthesis
 
-**Status:** First-pass synthesis; researcher-authored; adversarial and independent review pending  
+**Status:** Revised first-pass synthesis after one adversarial review and direct primary-source recheck; independent second-coder review pending  
 **Date:** 2026-11-07  
 **Protocol:** Q1 Research Protocol v1.0  
 **Primary source:** NIST AI 100-1, *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*, January 2023  
@@ -11,9 +11,9 @@
 
 This document synthesizes the four first-pass NIST AI RMF 1.0 Core extraction matrices. It does not add a new coding instrument, rating, ranking, or completeness claim. It organizes already-recorded findings across the ten analytical dimensions approved in Q1 Protocol v1.0 and identifies what the Core does and does not establish for the research question.
 
-This is an investigator-side synthesis. The four extraction matrices have been source-checked against the official public NIST AI 100-1 PDF; independent second-coder review and adversarial review remain pending.
+This is an investigator-side synthesis. The four extraction matrices have been source-checked against the official public NIST AI 100-1 PDF. One adversarial review was received and evaluated; the critical provisions discussed in that review were independently rechecked against the primary PDF. Independent second-coder review remains pending.
 
-The synthesis does not repeat the historical C1–C20 analysis and does not use those criteria as its analytical instrument.
+The synthesis does not repeat the historical C1–C20 analysis and does not use those criteria as its analytical instrument. The phrase “task-level authorization for AI-assisted engineering” is an analytical benchmark derived from the research question, not a native NIST Core term or an asserted deficiency in the Core. The Core's native framing concerns organizational AI-risk management and AI-system contexts across the lifecycle. Findings about what is “not established” are therefore relative to that external analytical benchmark.
 
 ## 2. Native structure and function-level logic
 
@@ -40,9 +40,9 @@ The Core is an outcomes-and-actions structure. NIST states that actions are not 
 - MAP 1.3 and MAP 1.4 address organizational mission/goals and business-use context.
 - MAP 3.1 and MAP 3.3 address intended functionality/benefits and targeted application scope.
 - MANAGE 1.1 asks whether the AI system achieves its intended purposes and stated objectives and whether development or deployment should proceed.
-- MANAGE 2.4 addresses intervention when AI-system performance or outcomes are inconsistent with intended use.
+- MANAGE 2.4 addresses intervention after AI-system performance or outcomes become inconsistent with intended use; this is distinguished from the establishment or preservation of intended purpose.
 
-**Bounded interpretation:** NIST explicitly addresses AI-system purpose, intended use, application scope, and consistency with intended objectives. These are relevant to intent-preservation questions at the system/application level.
+**Bounded interpretation:** NIST explicitly addresses AI-system purpose, intended use, application scope, and consistency with intended objectives. These provisions support analysis of purpose definition and intended-use alignment. MANAGE 2.4 is more precisely treated as intervention following deviation from intended use, not as a direct intent-preservation provision.
 
 **Not established by these provisions alone:** a complete representation of an individual human's intent for a particular software-engineering task; a rule for preserving that intent through every intermediate AI-assisted action; or a formal authorization mechanism for changing task intent or engineering scope.
 
@@ -85,16 +85,16 @@ The Core contains several distinct forms of human-related decision and control l
 | GOVERN 2.3 | Executive leadership responsibility for decisions about risks associated with AI-system development and deployment. | Executive approval of every engineering task, code change, or AI output. |
 | GOVERN 3.2 | Policies/procedures define and differentiate human-AI roles and AI-system oversight responsibilities. | A complete task-level delegation or approval protocol. |
 | MAP 2.2 | Documentation of AI-system knowledge limits and how outputs may be used and overseen by humans, to support decisions and subsequent actions. | Mandatory prior human approval for every output. |
-| MAP 3.5 | Human-oversight processes are defined, assessed, and documented in accordance with GOVERN policies. | One prescribed oversight model or approval granularity. |
+| MAP 3.5 | Human-oversight processes must be defined, assessed, and documented in accordance with GOVERN policies; this is a substantive process requirement, not merely a reference to GOVERN. | One prescribed oversight model or approval granularity. |
 | MEASURE 2.9 | Model explanation/validation/documentation and contextual interpretation of outputs to inform responsible use and governance. | Guaranteed correctness, full interpretability, or a universal approval event. |
 | MEASURE 3.3 | End users and impacted communities can report problems and appeal system outcomes; feedback enters evaluation metrics. | Appeal as equivalent to operator override, pre-implementation approval, or engineering-scope authority. |
 | MANAGE 1.1 | A determination is made whether an AI system achieves intended purposes/objectives and whether development or deployment should proceed. | A separate go/no-go approval for every downstream engineering action. |
 | MANAGE 2.4 | Assigned responsibilities for superseding, disengaging, or deactivating AI systems inconsistent with intended use. | An unrestricted human override model for all human-AI activities. |
-| MANAGE 4.1 | Post-deployment monitoring plans include appeal and override, among other mechanisms. | Defined override actor, trigger, procedure, timing, precedence, or universal applicability. |
+| MANAGE 4.1 | Post-deployment AI-system monitoring plans are implemented, including mechanisms for user/AI-actor input, appeal and override, decommissioning, incident response, recovery, and change management. Appeal and override are expressly named mechanism classes. | Defined override actor, trigger, procedure, timing, precedence, or universal applicability. |
 
-**Synthesis:** Human oversight and decision-related provisions are materially present in the Core. The strongest explicit terms include role differentiation, documented oversight processes, system-level proceed/stop decisions, assigned system-disengagement responsibilities, and post-deployment appeal/override mechanisms.
+**Synthesis:** Human oversight and decision-related provisions are materially present in the Core. The strongest explicit terms include role differentiation, defined/assessed/documented oversight processes, system-level proceed/stop determinations, assigned system-disengagement responsibilities, and implemented post-deployment mechanisms that include appeal and override.
 
-**Remaining specification gap in the examined Core text:** These provisions do not, taken together, define a complete task-level authorization model for AI-assisted engineering. In particular, the exact authority holder, delegation boundaries, approval granularity, pre-implementation gate, change-of-intent procedure, and technical enforcement semantics are not comprehensively specified by the cited Subcategories.
+**Analytical boundary:** These provisions do not, taken together, define a complete task-level authorization model for AI-assisted engineering. In particular, the exact authority holder, delegation boundaries, approval granularity, pre-implementation gate, change-of-intent procedure, and technical enforcement semantics are not comprehensively specified by the cited Subcategories. This is a comparison against the research question's task-level benchmark, not a claim that NIST's system/lifecycle-level Core is deficient for its stated purpose.
 
 This is a bounded statement about what the examined Core establishes; it is not a claim that NIST has no additional relevant guidance outside the Core or in other publications.
 
@@ -116,7 +116,7 @@ Lifecycle references are distributed throughout the Core:
 - MEASURE includes pre-deployment testing, production monitoring, regular risk tracking, and field-context evaluation.
 - MANAGE addresses response, recovery, post-deployment monitoring, change management, decommissioning, and continual improvement.
 
-**Bounded interpretation:** Lifecycle coverage is explicit and broad. Change management is explicitly named in MANAGE 4.1, and continual improvement is explicit in MANAGE 4.2. Neither statement alone establishes a complete approval-before-implementation workflow for every software or configuration change.
+**Bounded interpretation:** Lifecycle coverage is explicit and broad. MANAGE 4.1 includes change management among the mechanisms required to be included in implemented post-deployment monitoring plans; MANAGE 4.2 addresses continual improvement. Change-management practices in engineering settings may include authorization gates, but the examined Core text does not specify a particular approval gate, approval actor, or approval timing for every software or configuration change.
 
 ### D8 — Documentation, records, measurement, evaluation, and evidence
 
@@ -158,7 +158,22 @@ The Core's internal logic is interdependent rather than four separate checklists
 3. **MEASURE evaluates.** It uses mapped risks and context to test, assess, benchmark, and monitor system behavior and trustworthiness.
 4. **MANAGE responds.** It uses mapped and measured information to prioritize risk treatment, respond, recover, monitor, and improve.
 
-The source describes this work as continuous and iterative. The functions may be applied flexibly according to user needs and capacities, while governance remains cross-cutting.
+The source describes this work as continuous and iterative. The functions may be applied flexibly according to user needs and capacities, while governance remains cross-cutting. The four MANAGE provisions discussed below are therefore presented as a useful analytical relationship, not as a prescribed NIST sequence.
+
+### 4.1 A multi-stage system-level risk decision and intervention pattern
+
+A useful cross-reading of four MANAGE Subcategories is possible:
+
+1. **MANAGE 1.1 — development/deployment determination:** a determination is made whether the AI system achieves its intended purposes and stated objectives and whether development or deployment should proceed.
+2. **MANAGE 1.3 — risk-response selection:** responses to high-priority risks are developed, planned, and documented; options may include mitigation, transfer, avoidance, or acceptance.
+3. **MANAGE 2.4 — operational intervention:** mechanisms are in place and applied, with responsibilities assigned and understood, to supersede, disengage, or deactivate systems whose performance or outcomes are inconsistent with intended use.
+4. **MANAGE 4.1 — post-deployment mechanisms:** implemented monitoring plans include appeal and override, as well as other named mechanisms.
+
+Taken together, these provisions support an analytical reading of a **multi-stage system-level risk decision and intervention pattern** spanning proceed determinations, risk treatment, operational intervention, and post-deployment contestability. This is a researcher synthesis across Subcategories, not a formally named NIST model, nor a mandatory sequence: NIST expressly states that Core actions are not necessarily ordered steps.
+
+Important limits remain. MANAGE 1.3 identifies risk acceptance as one response option but does not, by itself, identify the authorized risk-acceptance actor or establish that acceptance automatically authorizes a particular engineering action. MANAGE 2.4 establishes intervention mechanisms and assigned responsibilities, not a complete pre-action authorization scheme. MANAGE 4.1's implemented appeal/override mechanisms are significant, but their actor, trigger, procedure, timing, precedence, and scope are not fully specified in the Subcategory text.
+
+**Risk acceptance and authorization may overlap in organizational practice, but they are not interchangeable on the evidence of MANAGE 1.3 alone.** Organizational acceptance of a risk may contribute to an organization's decision to permit an activity; the Core text cited here does not establish that such acceptance is itself a task-specific authorization or delegation.
 
 ## 5. What the examined NIST Core establishes — and does not establish
 
@@ -190,17 +205,17 @@ The source describes this work as continuous and iterative. The functions may be
 A balanced synthesis must not minimize the following explicit NIST provisions:
 - MAP 2.2 and MAP 3.5 directly address human use/oversight and defined/assessed/documented oversight processes.
 - MANAGE 1.1 explicitly requires a determination about whether development or deployment should proceed.
-- MANAGE 1.3 explicitly includes acceptance among risk-treatment options.
-- MANAGE 2.4 explicitly assigns responsibilities for superseding, disengaging, or deactivating systems inconsistent with intended use.
-- MANAGE 4.1 explicitly names appeal and override as elements of post-deployment monitoring plans.
+- MANAGE 1.3 explicitly includes acceptance among risk-treatment options; this is risk-response language and should not be treated, without additional evidence, as a task-specific authorization.
+- MANAGE 2.4 explicitly assigns responsibilities and calls for applied mechanisms to supersede, disengage, or deactivate systems inconsistent with intended use; this is intervention authority/responsibility, not a complete authorization model.
+- MANAGE 4.1 requires implemented post-deployment monitoring plans that include appeal and override mechanisms, alongside other specified mechanism classes.
 
-These provisions are substantive and relevant. The limitation is not that NIST says nothing about human control or decisions; the limitation is that the examined Core does not fully specify their task-level authority semantics for AI-assisted engineering.
+These provisions are substantive and relevant. Read together, MANAGE 1.1, 1.3, 2.4, and 4.1 support a partial multi-stage system-level risk decision/intervention pattern. They do not establish that pattern as a formally prescribed sequence, and they do not fully specify task-level authorization semantics for AI-assisted engineering.
 
 ## 7. Provisional NIST-only conclusion
 
 NIST AI RMF 1.0 Core provides a structured, flexible, lifecycle-oriented approach to organizational AI risk management. It contains explicit provisions on organizational accountability, human-AI role differentiation, human oversight, intended use and application scope, measurement and evidence, system-level proceed/stop decisions, system disengagement, appeal, and override.
 
-The Core therefore provides meaningful source-grounded coverage of several governance and human-control topics relevant to this research. However, the examined provisions do not, as a complete set, establish a fully specified task-level authorization and delegation model for AI-assisted engineering, nor a universal approval-before-implementation requirement for each engineering action.
+The Core therefore provides meaningful source-grounded coverage of organizational governance, human oversight, system-level decision-making, intervention, and post-deployment contestability. A cross-reading of MANAGE 1.1, 1.3, 2.4, and 4.1 supports a partial system-level risk decision/intervention pattern. Relative to the research question's externally defined task-level benchmark, however, the examined Core does not establish a fully specified task-level authorization and delegation model for AI-assisted engineering, nor a universal approval-before-implementation requirement for each engineering action. This is a scope-relative finding, not a judgment that NIST fails its own stated purpose.
 
 This conclusion is limited to the NIST AI RMF 1.0 Core and the source material examined. It is not a judgment of NIST's overall adequacy, implementation effectiveness, or comparative standing against ISO/IEC 42001 or BAES.
 
@@ -224,17 +239,17 @@ The following questions should be used to challenge this synthesis before cross-
 | Four native Function matrices completed | Yes — 19 / 18 / 22 / 13 Subcategories |
 | Total native Subcategory count | 72; all identifiers unique in the four extraction records |
 | Source edition | NIST AI 100-1 / AI RMF 1.0, January 2023 |
-| Primary source-location checks | Completed by researcher for the four Core tables and relevant function-level explanations |
+| Primary source-location checks | Completed against the official PDF; critical references in the adversarial review rechecked directly, including page locations |
 | Historical C1–C20 used as coding instrument | No |
 | Within-NIST synthesis | First pass complete |
-| Adversarial review | Pending |
+| Adversarial review | One review received and evaluated; targeted corrections incorporated after direct primary-source recheck |
 | Independent second-coder review | Pending |
 | Cross-framework comparison | Not updated by this document |
 | BAES repository changes | None |
 
 ## 10. Sources and linked records
 
-- NIST AI 100-1, *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*, January 2023. [Official PDF](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf).
+- NIST AI 100-1, *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*, January 2023. [Official PDF](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf). Relevant printed pages: Core structure p. 20; MAP 2.2 p. 26; MAP 3.5 p. 27; MEASURE 2.9 p. 29; MEASURE 3.3 p. 30; MANAGE 1.1, 1.3, 2.4, and 4.1 pp. 32–33.
 - [09 — GOVERN extraction matrix](09-Q1-NIST-Core-Extraction-Matrix-GOVERN.md).
 - [10 — MAP extraction matrix](10-Q1-NIST-Core-Extraction-Matrix-MAP.md).
 - [11 — MEASURE extraction matrix](11-Q1-NIST-Core-Extraction-Matrix-MEASURE.md).

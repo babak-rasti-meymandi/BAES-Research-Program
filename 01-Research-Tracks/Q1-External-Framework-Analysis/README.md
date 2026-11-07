@@ -74,10 +74,6 @@ Q1 will not:
 - treat the historical C1–C20 set as a neutral or exhaustive sampling frame;
 - infer ISO clause coverage from inaccessible text.
 
-## 7. Start condition
+## 7. Execution status
 
-No substantive Q1 coding or framework rating should begin until:
-1. the non-duplication matrix is complete;
-2. the source boundary and unit of analysis are approved;
-3. the method and reporting limits are documented;
-4. the Founder explicitly approves the Q1 protocol.
+The non-duplication matrix, source boundary, analytical units, and reporting limits have been documented. The Founder approved Q1 Protocol v1.0 on 2026-11-07. Substantive source extraction is active within that protocol. Final comparative conclusions and external publication remain subject to evidence review and the program's publication gate.

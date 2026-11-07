@@ -5,7 +5,7 @@
 **Protocol:** Q1 Research Protocol v1.0  
 **Source ID:** Q1-NIST-001  
 **Primary source:** [NIST AI 100-1, AI RMF 1.0 (PDF)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)  
-**Native source location:** Part 2, Section 5.3, Table 3, printed pp. 28–30 (PDF pages 32–35)
+**Native source location:** Part 2, Section 5.3, Table 3, printed pp. 29–31 (PDF pages 33–35)
 
 ## 1. Purpose and method
 

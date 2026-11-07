@@ -158,7 +158,8 @@ The following queue reflects the actual state on 2026-11-07 and the approved pro
 
 - [x] Recheck critical NIST source identity, edition, and cited locations discussed in the adversarial review directly against the official NIST AI 100-1 PDF.
 - [x] Verify printed page references for all 72 Subcategory rows in files 09–12 against the official PDF tables; correct identified page-reference errors in files 06 and 09–12.
-- [x] Conduct an initial substantive coding check of MAP 1.6 and MAP 2.1; removed D8 where the respective Subcategory wording does not expressly establish documentation/evaluation. Updated the D8 synthesis wording accordingly.\n- [ ] Complete a systematic source-location and substantive-claim recheck across files 09–13.
+- [x] Conduct an initial substantive coding check of MAP 1.6 and MAP 2.1; removed D8 where the respective Subcategory wording does not expressly establish documentation/evaluation. Updated the D8 synthesis wording accordingly.
+- [ ] Complete a systematic source-location and substantive-claim recheck across files 09–13.
 - [x] Challenge interpretations that might be overstated as explicit approval or authorization requirements through the first adversarial review; remaining issues and independent review are still open.
 - [x] Record the ISO access/terms stop and preserve ISO unknowns without substantive preview processing.
 - [ ] Review NIST non-equivalence claims and alternative readings.

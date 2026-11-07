@@ -12,6 +12,7 @@
 - [NIST Core — 19-category / 72-subcategory inventory](06-NIST-Core-Category-Subcategory-Inventory.md)
 - [Preliminary framework comparison memo](07-Preliminary-Framework-Comparison-Memo.md)
 - [NIST Core extraction matrix — GOVERN (19 Subcategories)](09-Q1-NIST-Core-Extraction-Matrix-GOVERN.md)
+- [NIST Core extraction matrix — MAP (18 Subcategories)](10-Q1-NIST-Core-Extraction-Matrix-MAP.md)
 - [ISO/IEC 42001 — public-source boundary](05-ISO-IEC-42001-Public-Source-Boundary.md)
 
 ## 1. Working question

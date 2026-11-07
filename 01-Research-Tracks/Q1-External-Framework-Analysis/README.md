@@ -9,6 +9,7 @@
 - [Q1 research protocol v1.0 (approved)](02-Q1-Research-Protocol-v1.0.md)
 - [Q1 source register](03-Q1-Source-Register.md)
 - [NIST AI RMF 1.0 — initial observations](04-NIST-AI-RMF-1.0-Initial-Observations.md)
+- [NIST Core — 19-category / 72-subcategory inventory](06-NIST-Core-Category-Subcategory-Inventory.md)
 - [ISO/IEC 42001 — public-source boundary](05-ISO-IEC-42001-Public-Source-Boundary.md)
 
 ## 1. Working question

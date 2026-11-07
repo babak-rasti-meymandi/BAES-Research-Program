@@ -16,6 +16,7 @@
 - [NIST Core extraction matrix — MEASURE (22 Subcategories)](11-Q1-NIST-Core-Extraction-Matrix-MEASURE.md)
 - [NIST Core extraction matrix — MANAGE (13 Subcategories)](12-Q1-NIST-Core-Extraction-Matrix-MANAGE.md)
 - [NIST Core within-framework synthesis](13-Q1-NIST-Core-Within-Framework-Synthesis.md)
+- [NIST synthesis adversarial review and disposition](14-Q1-NIST-Synthesis-Adversarial-Review-and-Disposition.md)
 - [ISO/IEC 42001 — public-source boundary](05-ISO-IEC-42001-Public-Source-Boundary.md)
 
 ## 1. Working question

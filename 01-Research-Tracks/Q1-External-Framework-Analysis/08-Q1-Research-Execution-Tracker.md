@@ -83,7 +83,7 @@ The following work is recorded as completed as of 2026-11-07. “Completed” re
 |---|---|---|
 | Scope / non-duplication | Established | The prior-work boundary is documented; do not reopen C1–C20 as Q1's analytical instrument. |
 | Protocol | Approved | Execute under v1.0 unless a material amendment is first recorded and approved. |
-| NIST source inventory | Initial inventory complete | All native Core identifiers are inventoried; analytical mapping and source-location verification remain. |
+| NIST source inventory | Initial inventory and first-pass extraction complete | All 72 native Core Subcategories are inventoried and mapped in files 09–12, with native source locations recorded; independent review remains pending. |
 | NIST dimension analysis | First-pass extraction and within-NIST synthesis complete | All 72 NIST Core Subcategories have first-pass mappings in files 09–12. A first-pass within-NIST synthesis is recorded in [13 — NIST Core Within-Framework Synthesis](13-Q1-NIST-Core-Within-Framework-Synthesis.md). Adversarial review, source rechecks, and independent second-coder review remain. |
 | ISO official records | Initial review complete | Document identity and broad purpose are supported by official public records. |
 | ISO preview inspection | Pending | Exact publicly visible contents and structural information still need to be inspected and recorded. |

@@ -10,6 +10,7 @@
 - [Q1 source register](03-Q1-Source-Register.md)
 - [NIST AI RMF 1.0 — initial observations](04-NIST-AI-RMF-1.0-Initial-Observations.md)
 - [NIST Core — 19-category / 72-subcategory inventory](06-NIST-Core-Category-Subcategory-Inventory.md)
+- [Preliminary framework comparison memo](07-Preliminary-Framework-Comparison-Memo.md)
 - [ISO/IEC 42001 — public-source boundary](05-ISO-IEC-42001-Public-Source-Boundary.md)
 
 ## 1. Working question

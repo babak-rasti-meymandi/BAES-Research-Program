@@ -2,6 +2,10 @@
 
 **Status:** Proposed; scoping required. Research has not started under this track.
 
+## Scoping records
+
+- [Prior-work gap and overlap matrix](00-Prior-Work-Gap-Overlap-Matrix.md)
+
 ## 1. Working question
 
 What can be responsibly established, using publicly accessible and lawfully usable sources, about how selected external AI governance frameworks address human authority, oversight, delegation, intent preservation, evidence, decisions, and traceability—and how do their own structures and purposes affect that analysis?

@@ -12,11 +12,11 @@ The AI RMF 1.0 Core is organized into four Functions. The tables below contain *
 
 | Function | Categories | Subcategories | Printed source pages |
 |---|---:|---:|---|
-| GOVERN | 6 | 19 | 22–23 |
-| MAP | 5 | 18 | 25–27 |
-| MEASURE | 4 | 22 | 28–30 |
-| MANAGE | 4 | 13 | 31–32 |
-| **Total** | **19** | **72** | **22–32** |
+| GOVERN | 6 | 19 | 22–24 |
+| MAP | 5 | 18 | 26–28 |
+| MEASURE | 4 | 22 | 29–31 |
+| MANAGE | 4 | 13 | 32–33 |
+| **Total** | **19** | **72** | **22–33** |
 
 These counts describe the Core's structural inventory. They are not ratings, weights, priorities, or an indication that every organization must apply every subcategory.
 

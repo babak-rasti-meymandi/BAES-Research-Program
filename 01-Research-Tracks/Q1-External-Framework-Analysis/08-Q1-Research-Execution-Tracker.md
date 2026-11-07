@@ -4,7 +4,7 @@
 **Status:** Active  
 **Protocol baseline:** Q1 Research Protocol v1.0 (approved 2026-11-07)  
 **Tracker opened:** 2026-11-07  
-**Last updated:** 2026-11-07 (GOVERN, MAP, and MEASURE extraction tranches added)  
+**Last updated:** 2026-11-07 (all four NIST Core extraction tranches added)  
 **Controlling repository:** `babak-rasti-meymandi/BAES-Research-Program`
 
 ## 1. Purpose and control
@@ -84,7 +84,7 @@ The following work is recorded as completed as of 2026-11-07. “Completed” re
 | Scope / non-duplication | Established | The prior-work boundary is documented; do not reopen C1–C20 as Q1's analytical instrument. |
 | Protocol | Approved | Execute under v1.0 unless a material amendment is first recorded and approved. |
 | NIST source inventory | Initial inventory complete | All native Core identifiers are inventoried; analytical mapping and source-location verification remain. |
-| NIST dimension analysis | In progress — GOVERN, MAP, and MEASURE tranches completed | First-pass extraction of all 19 GOVERN Subcategories is recorded in [09 — GOVERN Extraction Matrix](09-Q1-NIST-Core-Extraction-Matrix-GOVERN.md), all 18 MAP Subcategories in [10 — MAP Extraction Matrix](10-Q1-NIST-Core-Extraction-Matrix-MAP.md), and all 22 MEASURE Subcategories in [11 — MEASURE Extraction Matrix](11-Q1-NIST-Core-Extraction-Matrix-MEASURE.md). MANAGE (13) remains. Independent review is pending. |
+| NIST dimension analysis | First-pass extraction complete — all four Functions | First-pass extraction of all 19 GOVERN Subcategories is recorded in [09 — GOVERN Extraction Matrix](09-Q1-NIST-Core-Extraction-Matrix-GOVERN.md), all 18 MAP Subcategories in [10 — MAP Extraction Matrix](10-Q1-NIST-Core-Extraction-Matrix-MAP.md), all 22 MEASURE Subcategories in [11 — MEASURE Extraction Matrix](11-Q1-NIST-Core-Extraction-Matrix-MEASURE.md), and all 13 MANAGE Subcategories in [12 — MANAGE Extraction Matrix](12-Q1-NIST-Core-Extraction-Matrix-MANAGE.md). The 72 Subcategories now have first-pass mappings; within-NIST synthesis, verification, and independent review remain. |
 | ISO official records | Initial review complete | Document identity and broad purpose are supported by official public records. |
 | ISO preview inspection | Pending | Exact publicly visible contents and structural information still need to be inspected and recorded. |
 | Cross-framework comparison | Preliminary only | Existing memo records only bounded first observations; it is not final. |
@@ -101,11 +101,13 @@ The following queue reflects the actual state on 2026-11-07 and the approved pro
 - [x] Complete first-pass mapping of the 19 GOVERN Subcategories to the ten analytical dimensions; record source pages and interpretation limits in [09 — GOVERN Extraction Matrix](09-Q1-NIST-Core-Extraction-Matrix-GOVERN.md).
 - [x] Complete first-pass mapping of all 18 MAP Subcategories to the ten analytical dimensions; record source pages and interpretation limits in [10 — MAP Extraction Matrix](10-Q1-NIST-Core-Extraction-Matrix-MAP.md).
 - [x] Complete first-pass mapping of all 22 MEASURE Subcategories to the ten analytical dimensions; record source pages and interpretation limits in [11 — MEASURE Extraction Matrix](11-Q1-NIST-Core-Extraction-Matrix-MEASURE.md).
-- [ ] Map the remaining 13 native Subcategories (MANAGE 13) to the ten analytical dimensions in Protocol v1.0.
+- [x] Complete first-pass mapping of all 13 MANAGE Subcategories to the ten analytical dimensions; record source pages and interpretation limits in [12 — MANAGE Extraction Matrix](12-Q1-NIST-Core-Extraction-Matrix-MANAGE.md).
+- [ ] Complete within-NIST synthesis across all four Functions and the ten analytical dimensions.
+- [ ] Conduct adversarial review of authority, oversight, appeal, override, risk acceptance, and system-level go/no-go interpretations.
 - [ ] Preserve each item's Function and Category parent.
-- [ ] Record the exact source location in NIST AI 100-1 for each substantive claim.
-- [ ] Separate source paraphrase from researcher interpretation.
-- [ ] Use evidence statuses consistently: explicit, indirect, not established, access-limited, or not applicable.
+- [x] Record the exact source location in NIST AI 100-1 for each substantive claim in the four first-pass extraction matrices.
+- [x] Separate source paraphrase from researcher interpretation in the four first-pass extraction matrices.
+- [x] Use the protocol's evidence-status vocabulary consistently across the four first-pass extraction matrices.
 - [ ] Record counterevidence, ambiguity, and claims that cannot support task-level authorization conclusions.
 - [ ] Check that the extraction does not silently reproduce the historical C1–C20 mapping.
 
@@ -210,7 +212,8 @@ Pause and seek Founder direction if any Q1 Protocol v1.0 stop condition is reach
 | 2026-11-07 | Initial execution baseline | Protocol, source register, initial NIST observations, ISO public-source boundary, NIST native inventory, and preliminary comparison memo recorded. |
 | 2026-11-07 | NIST GOVERN extraction tranche | First-pass source-checked mapping of 19 GOVERN Subcategories completed and recorded in file 09; MAP, MEASURE, and MANAGE remained open at that point. |
 | 2026-11-07 | NIST MAP extraction tranche | First-pass source-checked mapping of 18 MAP Subcategories completed and recorded in file 10; MEASURE and MANAGE remained open at that point. |
-| 2026-11-07 | NIST MEASURE extraction tranche | First-pass source-checked mapping of 22 MEASURE Subcategories completed and recorded in file 11; 13 MANAGE Subcategories and independent review remain open. |
+| 2026-11-07 | NIST MEASURE extraction tranche | First-pass source-checked mapping of 22 MEASURE Subcategories completed and recorded in file 11; MANAGE remained open at that point. |
+| 2026-11-07 | NIST MANAGE extraction tranche | First-pass source-checked mapping of 13 MANAGE Subcategories completed and recorded in file 12; all 72 NIST Core Subcategories now have first-pass mappings. Within-NIST synthesis, adversarial review, and independent review remain open. |
 
 No material protocol deviation is recorded in this tracker at opening. Add a dated entry before implementing any approved change; do not retrospectively rewrite the baseline.
 
@@ -222,6 +225,7 @@ No material protocol deviation is recorded in this tracker at opening. Add a dat
 | 2026-11-07 | Updated after first NIST extraction tranche; recorded GOVERN completion and remaining MAP / MEASURE / MANAGE work. |
 | 2026-11-07 | Updated after second NIST extraction tranche; recorded MAP completion and remaining MEASURE / MANAGE work. |
 | 2026-11-07 | Updated after third NIST extraction tranche; recorded MEASURE completion and remaining MANAGE work. |
+| 2026-11-07 | Updated after fourth NIST extraction tranche; recorded completion of first-pass extraction across all 72 NIST Core Subcategories and the transition to synthesis/review. |
 
 ---
 

@@ -4,7 +4,7 @@
 **Status:** Active  
 **Protocol baseline:** Q1 Research Protocol v1.0 (approved 2026-11-07)  
 **Tracker opened:** 2026-11-07  
-**Last updated:** 2026-11-07 (all four NIST Core extraction tranches and within-NIST synthesis added)  
+**Last updated:** 2026-11-07 (adversarial review evaluated; synthesis revised and primary-source rechecked)  
 **Controlling repository:** `babak-rasti-meymandi/BAES-Research-Program`
 
 ## 1. Purpose and control
@@ -84,11 +84,11 @@ The following work is recorded as completed as of 2026-11-07. “Completed” re
 | Scope / non-duplication | Established | The prior-work boundary is documented; do not reopen C1–C20 as Q1's analytical instrument. |
 | Protocol | Approved | Execute under v1.0 unless a material amendment is first recorded and approved. |
 | NIST source inventory | Initial inventory and first-pass extraction complete | All 72 native Core Subcategories are inventoried and mapped in files 09–12, with native source locations recorded; independent review remains pending. |
-| NIST dimension analysis | First-pass extraction and within-NIST synthesis complete | All 72 NIST Core Subcategories have first-pass mappings in files 09–12. A first-pass within-NIST synthesis is recorded in [13 — NIST Core Within-Framework Synthesis](13-Q1-NIST-Core-Within-Framework-Synthesis.md). Adversarial review, source rechecks, and independent second-coder review remain. |
+| NIST dimension analysis | First-pass extraction and revised within-NIST synthesis complete | All 72 NIST Core Subcategories have first-pass mappings in files 09–12. File 13 was revised after one adversarial review; critical references were independently rechecked against the official PDF. Review disposition is recorded in file 14. Independent second-coder review remains pending. |
 | ISO official records | Initial review complete | Document identity and broad purpose are supported by official public records. |
 | ISO preview inspection | Pending | Exact publicly visible contents and structural information still need to be inspected and recorded. |
 | Cross-framework comparison | Preliminary only | Existing memo records only bounded first observations; it is not final. |
-| Adversarial review | Pending | Interpretations, especially any suggestion of task-level authorization, require challenge. |
+| Adversarial review | First review completed; corrections incorporated | One reviewer report was evaluated and its accepted/qualified findings recorded in [14 — Adversarial Review and Disposition](14-Q1-NIST-Synthesis-Adversarial-Review-and-Disposition.md). This is not independent second-coder validation. |
 | Independent review | Not arranged / pending feasibility | If unavailable, final reporting must identify the work as investigator-side and exploratory. |
 | Final report | Not started | No final conclusion or publication clearance has been issued. |
 
@@ -103,7 +103,7 @@ The following queue reflects the actual state on 2026-11-07 and the approved pro
 - [x] Complete first-pass mapping of all 22 MEASURE Subcategories to the ten analytical dimensions; record source pages and interpretation limits in [11 — MEASURE Extraction Matrix](11-Q1-NIST-Core-Extraction-Matrix-MEASURE.md).
 - [x] Complete first-pass mapping of all 13 MANAGE Subcategories to the ten analytical dimensions; record source pages and interpretation limits in [12 — MANAGE Extraction Matrix](12-Q1-NIST-Core-Extraction-Matrix-MANAGE.md).
 - [x] Complete first-pass within-NIST synthesis across all four Functions and the ten analytical dimensions; record bounded conclusions and unresolved questions in [13 — NIST Core Within-Framework Synthesis](13-Q1-NIST-Core-Within-Framework-Synthesis.md).
-- [ ] Conduct adversarial review of authority, oversight, appeal, override, risk acceptance, and system-level go/no-go interpretations using the review questions in file 13.
+- [x] Obtain and evaluate one adversarial review of authority, oversight, appeal, override, risk acceptance, and system-level go/no-go interpretations; record dispositions in file 14.
 - [ ] Preserve each item's Function and Category parent.
 - [x] Record the exact source location in NIST AI 100-1 for each substantive claim in the four first-pass extraction matrices.
 - [x] Separate source paraphrase from researcher interpretation in the four first-pass extraction matrices.
@@ -155,8 +155,9 @@ The following queue reflects the actual state on 2026-11-07 and the approved pro
 
 ### V1 — Verification and adversarial review
 
-- [ ] Recheck source identity, edition, date, and every material citation/location.
-- [ ] Challenge the interpretation of NIST provisions that might be overstated as explicit approval or authorization requirements.
+- [x] Recheck critical source identity, edition, and cited locations discussed in the adversarial review directly against the official NIST AI 100-1 PDF.
+- [ ] Complete a systematic source-location recheck of every material claim across files 09–13.
+- [x] Challenge interpretations that might be overstated as explicit approval or authorization requirements through the first adversarial review; remaining issues and independent review are still open.
 - [ ] Check that ISO claims do not exceed the preview/public-source boundary.
 - [ ] Review non-equivalence claims and alternative readings.
 - [ ] Seek independent second-coder/reviewer input if feasible; if not obtained, record that limitation explicitly.
@@ -214,7 +215,8 @@ Pause and seek Founder direction if any Q1 Protocol v1.0 stop condition is reach
 | 2026-11-07 | NIST MAP extraction tranche | First-pass source-checked mapping of 18 MAP Subcategories completed and recorded in file 10; MEASURE and MANAGE remained open at that point. |
 | 2026-11-07 | NIST MEASURE extraction tranche | First-pass source-checked mapping of 22 MEASURE Subcategories completed and recorded in file 11; MANAGE remained open at that point. |
 | 2026-11-07 | NIST MANAGE extraction tranche | First-pass source-checked mapping of 13 MANAGE Subcategories completed and recorded in file 12; all 72 NIST Core Subcategories now have first-pass mappings. |
-| 2026-11-07 | NIST within-framework synthesis | First-pass synthesis across the four Functions and ten dimensions completed and recorded in file 13. Adversarial review, source rechecks, and independent second-coder review remain open. |
+| 2026-11-07 | NIST within-framework synthesis | First-pass synthesis across the four Functions and ten dimensions completed and recorded in file 13. |
+| 2026-11-07 | Adversarial review and disposition | One adversarial review was evaluated; accepted/qualified corrections were incorporated into file 13 and documented in file 14. Critical references were rechecked directly against the official PDF. Independent second-coder review remains pending. |
 
 No material protocol deviation is recorded in this tracker at opening. Add a dated entry before implementing any approved change; do not retrospectively rewrite the baseline.
 
@@ -228,6 +230,7 @@ No material protocol deviation is recorded in this tracker at opening. Add a dat
 | 2026-11-07 | Updated after third NIST extraction tranche; recorded MEASURE completion and remaining MANAGE work. |
 | 2026-11-07 | Updated after fourth NIST extraction tranche; recorded completion of first-pass extraction across all 72 NIST Core Subcategories and the transition to synthesis/review. |
 | 2026-11-07 | Updated after first-pass within-NIST synthesis; recorded synthesis completion and pending adversarial/independent review. |
+| 2026-11-07 | Updated after first adversarial review; recorded disposition, synthesis corrections, and direct primary-source recheck. |
 
 ---
 

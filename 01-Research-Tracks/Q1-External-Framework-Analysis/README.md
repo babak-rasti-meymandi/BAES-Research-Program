@@ -5,6 +5,7 @@
 ## Scoping records
 
 - [Prior-work gap and overlap matrix](00-Prior-Work-Gap-Overlap-Matrix.md)
+- [Q1 research protocol — draft v0.1](01-Q1-Research-Protocol-Draft-v0.1.md)
 
 ## 1. Working question
 

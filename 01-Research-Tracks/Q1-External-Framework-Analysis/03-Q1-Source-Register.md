@@ -6,7 +6,7 @@
 
 | Source ID | Framework | Source / issuing body | Edition / date | Type | Canonical URL | Examined material | Access boundary / use |
 |---|---|---|---|---|---|---|---|
-| Q1-NIST-001 | NIST | *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*, NIST; Elham Tabassi | NIST AI 100-1, January 2023; NIST publication page gives 2023-01-26 | Primary official publication | https://doi.org/10.6028/NIST.AI.100-1 ; PDF: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf | Cover and metadata; contents; foundational framing; Core overview; GOVERN; selected MAP and MEASURE subcategories; MANAGE; Profiles; Appendices A–C | Public full PDF. Q1 examines AI RMF 1.0 as a fixed edition. This is not a claim that 1.0 remains NIST's latest position. |
+| Q1-NIST-001 | NIST | *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*, NIST; Elham Tabassi | NIST AI 100-1, January 2023; NIST publication page gives 2023-01-26 | Primary official publication | https://doi.org/10.6028/NIST.AI.100-1 ; PDF: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf | Cover and metadata; contents; foundational framing; full Core structure and all four function tables (pp. 20–34); Profiles; Appendices A–C (selected sections) | Public full PDF. Q1 examines AI RMF 1.0 as a fixed edition. This is not a claim that 1.0 remains NIST's latest position. |
 | Q1-NIST-002 | NIST | NIST publication record for AI RMF 1.0 | Published 2023-01-26 | Official publication metadata | https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10 | Publication date, author, abstract, report number, citation | Public metadata; supports identity, publication date, and stated purpose only. |
 | Q1-NIST-003 | NIST | NIST AI RMF Resource Center — AI RMF Core page | Page checked 2026-11-07 | Official supporting web resource | https://airc.nist.gov/airmf-resources/airmf/5-sec-core/ | Core structure summary and current page notice | Used to record the current public revision-status notice. Not substituted for the 2023 publication. |
 | Q1-ISO-001 | ISO/IEC | ISO/IEC 42001:2023 catalogue and public preview page, ISO | Edition 1, 2023-12; published status; 51 pages | Official publication record / public summary | https://www.iso.org/standard/42001 | Identity, title, edition, publication month, scope/purpose summary, preview availability, page count, public FAQ | Public catalogue/summary and preview entry, not the full normative text. No clause reconstruction or clause-level ratings. |
@@ -16,7 +16,7 @@
 
 ### NIST AI RMF 1.0
 
-- The full NIST AI 100-1 PDF is publicly accessible.
+- The full NIST AI 100-1 PDF is publicly accessible. The native Core inventory has been transcribed into a 19-Category / 72-Subcategory paraphrase record; a mechanical count check confirmed 19 Category headings and 72 unique Subcategory identifiers.
 - NIST's current AI RMF resource page, checked 2026-11-07, states that AI RMF 1.0 is being updated and a revised version is in progress. Q1 therefore treats 1.0 as a historical fixed edition and records this status to prevent an outdated “latest framework” claim.
 - The NIST publication page identifies AI RMF 1.0 as published on 2023-01-26 and describes it as a voluntary, rights-preserving, non-sector-specific, use-case-agnostic resource for organizations designing, developing, deploying, or using AI systems.
 

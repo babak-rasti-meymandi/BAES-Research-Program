@@ -122,7 +122,7 @@ Lifecycle references are distributed throughout the Core:
 
 Documentation and measurement are distributed rather than confined to one Function:
 - GOVERN includes documented policies, roles, processes, risks, impacts, and review arrangements.
-- MAP documents intended purposes, assumptions, requirements, system scope, knowledge limits, oversight arrangements, risks, and impacts.
+- MAP documents intended purposes, assumptions, organizational goals, system scope, knowledge limits, oversight arrangements, risks, and impacts. MAP 1.6 separately addresses requirements elicitation and understanding, without expressly requiring documentation in that Subcategory.
 - MEASURE documents test sets, metrics, tools, results, uncertainty, evaluations, and risk tracking.
 - MANAGE documents risk treatment, residual risks, response/recovery, incident processes, and continual-improvement activities.
 

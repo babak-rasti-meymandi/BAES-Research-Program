@@ -15,7 +15,7 @@ This file is the operational record of the Q1 research path. It distinguishes:
 - **Actual:** what has been completed and recorded;
 - **Revised:** what remains necessary in light of the evidence and current access conditions.
 
-It complements, and does not replace, the program-level [Research Roadmap](../../../00-Program-Governance/Research-Roadmap.md), the [Q1 README](README.md), or the approved [Q1 Research Protocol v1.0](02-Q1-Research-Protocol-v1.0.md).
+It complements, and does not replace, the program-level [Research Roadmap](../../00-Program-Governance/Research-Roadmap.md), the [Q1 README](README.md), or the approved [Q1 Research Protocol v1.0](02-Q1-Research-Protocol-v1.0.md).
 
 The protocol controls the research question, scope, analytical dimensions, source boundary, interpretation rules, validation, reporting, and stop conditions. This tracker records execution against that protocol; it does not authorize scope changes.
 
@@ -65,7 +65,7 @@ The following work is recorded as completed as of 2026-11-07. “Completed” re
 | A06 | ISO/IEC 42001 public-source boundary documented. | [05 — ISO Public-Source Boundary](05-ISO-IEC-42001-Public-Source-Boundary.md) | Full final normative text not examined; clause-level conclusions remain access-limited/unknown. |
 | A07 | NIST Core inventory transcribed in native structure. | [06 — NIST Core Inventory](06-NIST-Core-Category-Subcategory-Inventory.md) | 4 Functions, 19 Categories, 72 Subcategory identifiers; mechanical count check found 72 unique identifiers without duplicates. This is an inventory, not yet a fully source-location-verified analytical extraction. |
 | A08 | Preliminary public-source comparison memo produced. | [07 — Preliminary Comparison Memo](07-Preliminary-Framework-Comparison-Memo.md) | Preliminary and asymmetric; not final synthesis. |
-| A09 | Q1 track activated in program governance records. | [Program Research Roadmap](../../../00-Program-Governance/Research-Roadmap.md) and [Decision Register](../../../00-Program-Governance/Decision-Register.md), D-005 | Approved / active; NIST 1.0 fixed historical edition; ISO limited to authorized public materials. |
+| A09 | Q1 track activated in program governance records. | [Program Research Roadmap](../../00-Program-Governance/Research-Roadmap.md) and [Decision Register](../../00-Program-Governance/Decision-Register.md), D-005 | Approved / active; NIST 1.0 fixed historical edition; ISO limited to authorized public materials. |
 
 ### Verified structural facts currently recorded
 

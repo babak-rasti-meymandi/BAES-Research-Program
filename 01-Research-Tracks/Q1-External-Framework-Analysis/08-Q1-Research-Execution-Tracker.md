@@ -157,7 +157,8 @@ The following queue reflects the actual state on 2026-11-07 and the approved pro
 ### V1 — NIST verification and adversarial review
 
 - [x] Recheck critical NIST source identity, edition, and cited locations discussed in the adversarial review directly against the official NIST AI 100-1 PDF.
-- [x] Verify printed page references for all 72 Subcategory rows in files 09–12 against the official PDF tables; correct identified page-reference errors in files 06 and 09–12.\n- [ ] Complete a systematic source-location and substantive-claim recheck across files 09–13.
+- [x] Verify printed page references for all 72 Subcategory rows in files 09–12 against the official PDF tables; correct identified page-reference errors in files 06 and 09–12.
+- [ ] Complete a systematic source-location and substantive-claim recheck across files 09–13.
 - [x] Challenge interpretations that might be overstated as explicit approval or authorization requirements through the first adversarial review; remaining issues and independent review are still open.
 - [x] Record the ISO access/terms stop and preserve ISO unknowns without substantive preview processing.
 - [ ] Review NIST non-equivalence claims and alternative readings.
@@ -232,7 +233,8 @@ No material protocol deviation is recorded in this tracker at opening. Add a dat
 | 2026-11-07 | Updated after fourth NIST extraction tranche; recorded completion of first-pass extraction across all 72 NIST Core Subcategories and the transition to synthesis/review. |
 | 2026-11-07 | Updated after first-pass within-NIST synthesis; recorded synthesis completion and pending adversarial/independent review. |
 | 2026-11-07 | Updated after first adversarial review; recorded disposition, synthesis corrections, and direct primary-source recheck. |
-| 2026-11-07 | Updated after Founder direction on ISO access/terms; paused substantive ISO preview work, recorded the publisher restriction, and redirected remaining Q1 execution to NIST validation. |\n| 2026-11-07 | Completed page-level source-location audit of all 72 NIST Subcategory rows against the official PDF tables; corrected printed-page ranges in the inventory and affected matrices, and corrected the MEASURE 3.3 citation in files 13–14. Full semantic/claim-level audit remains open. |
+| 2026-11-07 | Updated after Founder direction on ISO access/terms; paused substantive ISO preview work, recorded the publisher restriction, and redirected remaining Q1 execution to NIST validation. |
+| 2026-11-07 | Completed page-level source-location audit of all 72 NIST Subcategory rows against the official PDF tables; corrected printed-page ranges in the inventory and affected matrices, and corrected the MEASURE 3.3 citation in files 13–14. Full semantic/claim-level audit remains open. |
 
 ---
 

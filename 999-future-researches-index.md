@@ -8,6 +8,7 @@ This index groups research ideas and records that may be examined in the future.
 
 | File | Topic | Status |
 |---|---|---|
+| [997-governance-effectiveness-and-evidence.md](997-governance-effectiveness-and-evidence.md) | From governance documentation to demonstrable governance effectiveness | Exploratory research |
 | [998-harmful-optimization-and-authorization-boundaries.md](998-harmful-optimization-and-authorization-boundaries.md) | Authorization boundaries and harmful optimization in Human–AI systems | Exploratory research |
 | [999-af-colleague.md](999-af-colleague.md) | Resolution Intelligence and emergent system states — independent colleague exchange | Exploratory research |
 

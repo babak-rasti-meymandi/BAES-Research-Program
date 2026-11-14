@@ -10,7 +10,7 @@ This registry shows where bounded projects live. It is an index, not a duplicate
 | R-997 | [Governance Effectiveness and Evidence](997-governance-effectiveness-and-evidence/README.md) | This repository | Project workspace linked to the retained root-level planning record | Planned — not started |
 | R-998 | [Harmful Optimization and Authorization Boundaries](998-harmful-optimization-and-authorization-boundaries/README.md) | This repository | Project workspace linked to the retained root-level planning record | Planned — not started |
 | R-999 | [Resolution Intelligence and Emergent System States](999-resolution-intelligence-and-emergent-system-states/README.md) | This repository | Project workspace linked to the retained root-level planning record | Planned — not started |
-| BAES-EXT-EVIDENCE-001 | [External Regulatory Evidence: AI Governance and Engineering Requirements](BAES-EXT-EVIDENCE-001-external-regulatory-evidence/README.md) | This repository | Independent source-verification and BAES evidence-mapping project; not affiliated with or endorsed by any regulator or public institution | Planned — source pending |
+| BAES-EXT-EVIDENCE-001 | [External Regulatory Evidence: AI Governance and Engineering Requirements](001-External-regulatory-evidence-eu/README.md) | This repository | Independent source-verification and BAES evidence-mapping project; not affiliated with or endorsed by any regulator or public institution | Planned — source pending |
 
 ## Assignment rule for new work
 

@@ -1,8 +1,10 @@
 # BAES — Research Overview & Potential Academic Collaboration
 
 **Researcher:** Babak Rasti Meymandi  
-**Date:** 14 November 2026  
-**Document status:** Initial Research Discussion Draft — v0.1  
+**Prepared:** 14 November 2026  
+**Last Updated:** 15 November 2026  
+**Version:** 0.1  
+**Document status:** Initial Academic Discussion Version  
 **Purpose:** Initial research discussion document for potential academic engagement with Maastricht University researchers, including MINDS and relevant research groups.
 
 ---

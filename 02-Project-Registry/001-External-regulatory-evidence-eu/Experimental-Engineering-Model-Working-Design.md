@@ -436,7 +436,7 @@ Each Rule is provisional. Its trigger, scope, action, prohibited inference, reso
 - **Trigger:** A criterion necessary for a finding cannot be identified, accessed, versioned, or shown to apply.
 - **Scope:** Criterion-dependent findings only.
 - **Action:** Stop the dependent final finding; bounded descriptive or exploratory analysis may continue.
-- **Prohibited inference:** Do not manufacture criteria, substitute generic custom for a required criterion, apply a later criterion retrospectively without basis, or convert missing criteria into proof of violation.
+- **Prohibited inference:** Do not manufacture criteria, substitute a generic convention for a required criterion, apply a later criterion retrospectively without basis, or convert missing criteria into proof of violation.
 - **Resolution:** Identify the criterion, establish applicability, and determine the relevant version/effective time.
 - **Audit record:** Claim, criterion/source/version, applicability issue, effective time, affected findings, and permitted limited analysis.
 

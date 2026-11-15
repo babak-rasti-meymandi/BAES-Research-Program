@@ -8,7 +8,7 @@
 
 This repository coordinates an independent research program examining engineering, governance, authorization, evidence, and traceability questions arising in Human–AI Engineering Interaction. It provides program-level governance, research planning, methods, source management, and links to bounded research projects.
 
-It is not the BAES standard itself, does not amend BAES, and does not contain confidential BAES material.
+It is not the BAES standard itself, does not amend BAES, and does not contain confidential BAES material. The current BAES name is not necessarily final or unchangeable; any future naming proposal and sponsor recognition must follow the applicable BAES approval process. See [Research Governance and Boundaries](00-Program-Governance/Research-Governance-and-Boundaries.md).
 
 ## Research posture
 

@@ -87,3 +87,18 @@ Each material claim should be recorded with at least:
 A source-verified claim matrix and a concise analytical report stating what is supported, partially supported, not established, or outside scope.
 
 **Next action:** Identify the original audit report before evaluating its summary claims.
+
+## Supporting Experimental Engineering Model Design
+
+A separate working document records an experimental assessment-model design developed to support evidence-based examination of AI-assisted engineering activities:
+
+[Experimental Engineering Model — Working Design](Experimental-Engineering-Model-Working-Design.md)
+
+**Status:** Working Design — experimental, provisional, and not validated.  
+**Relationship:** Supporting design workstream only; it is not yet adopted as the project's validated assessment method and does not change the project's status or scope.  
+**Boundary:** It is not a legal interpretation, regulatory compliance assessment, conformity assessment, certification method, or official BAES model. No confidential BAES material is included or authorized for publication here.
+
+The design record covers four independent assessment axes, activity characterization and scope, authority and delegation, evidence relationships, claim decomposition, dependency-bounded uncertainty propagation, assessment revision, twelve provisional Stop Rules, Stop Rule testing and interaction, and a multi-level Assessment State Machine.
+
+The Assessment Event Model, structured input/output schemas, full test execution, and independent reconstruction remain open work. Inclusion of the document does not imply validation or operational readiness.
+

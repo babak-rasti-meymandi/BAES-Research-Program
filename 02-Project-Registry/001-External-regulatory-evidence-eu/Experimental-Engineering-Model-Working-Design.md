@@ -956,3 +956,321 @@ It should identify missing authority, criteria, evidence, relationships, or cont
 The design's central discipline remains:
 
 > Uncertainty must be propagated according to established dependencies, not assumed associations.
+
+
+---
+
+## 17. Evidence Extraction and Evidence Object Model
+
+**Status:** Working design — provisional and not validated  
+**Design scope:** Evidence extraction, provenance, transformation lineage, claim-specific use, lifecycle, and preservation  
+**Boundary:** This section does not establish the truth of source content, validate an extraction tool, or define a universal evidence-weighting scheme.
+
+### 17.1 Three distinct objects
+
+The design distinguishes three entities:
+
+1. **Input Object:** the received source artifact or record, such as a PDF, configuration file, log, database record, message, image, or external record.
+2. **Extracted Information Object:** a specific content item obtained from an Input Object through extraction, parsing, OCR, transcription, translation, summarization, or another transformation.
+3. **Evidence Object:** an identifiable evidential item assessed for a specific claim-related use, with traceable source lineage, content, relationships, and limitations.
+
+These entities must not be collapsed. One Input may yield multiple Extracted Information Objects. One Extracted Information Object may be considered for multiple Claims. One Evidence Object may draw on multiple Inputs or extracted items. One Input may contain information that supports, contradicts, or is irrelevant to different Claims.
+
+An Evidence Object is not necessarily a single sentence. It may represent a value, record, technical output, event record, or bounded composite of information. Its boundary should be determined by its evidential purpose and semantic coherence, not merely by file or text boundaries.
+
+### 17.2 Input Object preservation
+
+An Input Object represents a received source, not the truth of what the source asserts.
+
+Candidate fields:
+
+- Input ID
+- Original Source Reference
+- Source Identity (asserted and/or established status)
+- Submitted By
+- Received By
+- Received Time
+- Source Time, if available
+- Original Format
+- Content Fingerprint
+- Version Reference
+- Preservation Status
+- Declared Purpose
+- Access / Availability Status
+
+Submitted By, Received By, and Source Identity are distinct. The submitter is not presumed to be the source author or originator.
+
+A converted or normalized file must not replace the original Input. Converted artifacts are separately identified and linked to the source Input. Input version changes do not silently replace historical versions.
+
+### 17.3 Extracted Information Object
+
+Extracted Information is a distinct object because extraction and transformation can introduce omissions, errors, ambiguity, or semantic drift.
+
+Candidate fields:
+
+- Extracted Information ID
+- Source Input ID
+- Source Location (page, paragraph, line, record, field, image region, or time range)
+- Extraction Method
+- Extracted Content
+- Content Type
+- Language
+- Transformation History
+- Extraction Tool / Model / Version
+- Parameters and Configuration
+- Extraction Time
+- Extraction Fidelity Status
+- Known Limitations
+- Uncertainty Notes
+
+Candidate extraction methods include Direct Text Extraction, OCR, Structured Data Parsing, Manual Transcription, Translation, Summarization, Model-Assisted Extraction, and Data Transformation.
+
+Original Text, OCR Output, Translation, and Summary are not interchangeable. Each transformed output must be separately identified and linked to its immediate input and ultimate source lineage. A summary is not presumed to preserve all information in its source; a translation is not presumed semantically exact; OCR is not presumed error-free.
+
+### 17.4 Extraction is not verification
+
+The design distinguishes:
+
+- **Extracted Information:** content obtained from a source.
+- **Evidence Candidate:** information considered potentially relevant to a defined Claim.
+- **Assessed Evidence:** information whose provenance, content, applicability, limitations, and intended use have been assessed for a particular Claim.
+
+Extraction alone does not establish source authenticity, event occurrence, semantic correctness, Claim applicability, or evidence sufficiency.
+
+The following are distinct:
+
+- Extraction is not Verification.
+- Verification is not Applicability.
+- Applicability is not Sufficiency.
+
+A proposition appearing in an Input does not automatically become a verified fact or an established Claim.
+
+### 17.5 Evidence Object
+
+Candidate fields:
+
+- Evidence ID
+- Evidence Type
+- Evidence Content Reference
+- Source Input References
+- Extracted Information References
+- Extraction Lineage
+- Evidence Proposition
+- Source Attribution Status
+- Content Integrity Status
+- Extraction Fidelity Status
+- Claim Applicability
+- Assessment Status
+- Limitations
+- Version
+- Supersession / Retraction References
+
+**Evidence Proposition** is distinct from the assessed **Claim**. The proposition describes what the evidence item records, indicates, or supports; the Claim is the proposition being assessed. A relationship between them must be established rather than assumed.
+
+For example, a log may record that an Archive operation was executed. That does not by itself establish that the operation belonged to the defined Activity, was triggered by a particular ranking result, or was authorized.
+
+### 17.6 Multi-source lineage
+
+An Evidence Object may be supported by one or multiple Inputs or Extracted Information Objects.
+
+The design distinguishes:
+
+- **Single-source evidence:** one source supports the relevant evidential item.
+- **Multi-source evidence:** multiple sources contribute different elements to a composite evidential item.
+- **Corroborative evidence:** multiple sources provide support for the same or overlapping propositions.
+
+The contribution and role of each source must remain separately traceable. Combining sources does not establish that they are independent, mutually corroborative, or causally related.
+
+Two reports generated from the same underlying database are not presumed to be independent sources. Source independence must be established from provenance and relevant production dependencies, not inferred from the number of files or records.
+
+### 17.7 Source attribution and transformation lineage
+
+Each extraction or transformation should retain a traceable relationship to its source and source location.
+
+Candidate Transformation Record fields:
+
+- Transformation ID
+- Input Object Reference
+- Output Object Reference
+- Transformation Type
+- Tool / Model / Version
+- Parameters and Configuration
+- Execution Time
+- Performed By
+- Source Location
+- Known Limitations
+- Validation Status
+
+Lineage should permit an assessor to trace an Evidence Object through its extracted and transformed representations to the original source. This is provenance reconstruction, not a claim that every transformation is mathematically reversible.
+
+Where a transformation is lossy or exact source reconstruction is unavailable, that limitation must be recorded and considered in the relevant assessment.
+
+### 17.8 Evidence types and claim relationships
+
+Candidate Evidence Types:
+
+- Direct Evidence
+- Derived Evidence
+- Composite Evidence
+- Corroborative Evidence
+- Contradictory Evidence
+- Contextual Evidence
+
+These types are not necessarily mutually exclusive. Contradiction is also relational: an item may support one Claim and contradict another.
+
+Candidate Evidence-to-Claim relationship types:
+
+- Supports
+- Contradicts
+- Qualifies
+- Contextualizes
+- Does Not Address
+
+The relationship type must be distinguished from the assessment status. Candidate claim-specific statuses:
+
+- Not Assessed
+- Under Assessment
+- Usable for Claim
+- Usable with Restrictions
+- Insufficient for Claim
+- Not Applicable to Claim
+- Conflicted for Claim
+- Rejected for Specific Claim
+
+Evidence must not receive a global Valid / Invalid label that silently applies to every possible use. Usability is Claim- and purpose-dependent.
+
+### 17.9 Derived Evidence constraint
+
+Derived Evidence may be produced through analysis, aggregation, transformation, or model-assisted processing. Its lineage must include all materially contributing Inputs and transformations.
+
+A derived output must not be presented as an independent source merely because a tool or model generated it. New inferences introduced during processing must be distinguishable from information directly recorded in source material.
+
+Derived Evidence is not necessarily weaker than Direct Evidence. A valid transformation may expose structure not readily observable in raw material. Its evidential use nevertheless depends on the method, assumptions, validation, provenance, and limitations being assessable.
+
+### 17.10 Claim-specific sufficiency and coverage
+
+Evidence reliability does not establish Claim sufficiency. A reliable operational log may support that an operation occurred while being insufficient to establish authorization for that operation.
+
+For each Claim, assessment should consider:
+
+1. Whether relevant Evidence exists.
+2. Whether source attribution is sufficiently established.
+3. Whether content integrity is adequate for the intended use.
+4. Whether extraction fidelity is adequate.
+5. Whether the Evidence applies to the defined Claim and Activity.
+6. Whether required relationships among evidence items are established.
+7. Whether material contradictory evidence or limitations remain.
+8. Whether the total evidence set is sufficient under the applicable criteria.
+
+Evidence Coverage remains claim-dependent and is not measured by document count. Relational Sufficiency remains distinct from the mere presence of multiple records.
+
+### 17.11 Evidence lifecycle and preservation
+
+Evidence lifecycle states are provisional and application-dependent:
+
+- Candidate
+- Under Assessment
+- Assessed
+- Usable for Specific Claim
+- Restricted
+- Challenged
+- Rejected for Specific Claim
+- Superseded
+- Retracted
+
+The status must identify the relevant Claim or evidential use where necessary. These states do not establish that an Evidence Object is universally valid or invalid.
+
+Distinguish:
+
+- **Evidence Correction:** an error in extraction, representation, or recorded content is corrected.
+- **Evidence Retraction:** reliance on an Evidence Object is withdrawn or challenged.
+- **Evidence Supersession:** a later version replaces an earlier one for a defined use.
+
+Prior versions, source Inputs, transformation history, and previous Claim relationships must be preserved. Retraction does not prove the opposite proposition. A change in Evidence status triggers dependency-based impact review; it does not automatically reverse a Finding.
+
+### 17.12 Evidence model invariants
+
+- **ED-INV-01 — Entity Separation:** Input, Extracted Information, and Evidence remain distinct entities.
+- **ED-INV-02 — No Automatic Evidential Promotion:** extraction alone does not establish Evidence validity or Claim support.
+- **ED-INV-03 — Source Lineage Preservation:** each Evidence Object remains traceable to its source Inputs and relevant source locations.
+- **ED-INV-04 — Transformation Transparency:** transformations, tools, versions, parameters, and known limitations are recorded.
+- **ED-INV-05 — No Assumed Source Independence:** multiple sources are not presumed independent or corroborative by count alone.
+- **ED-INV-06 — Claim-Specific Usability:** Evidence usability and sufficiency are assessed for a defined Claim and purpose.
+- **ED-INV-07 — Proposition / Claim Separation:** Evidence Proposition, Claim, and Finding are not conflated.
+- **ED-INV-08 — Derived Evidence Lineage:** derived outputs retain all materially contributing source and transformation references.
+- **ED-INV-09 — Historical Evidence Preservation:** correction, retraction, and supersession preserve prior records and relationships.
+- **ED-INV-10 — Dependency-Bounded Impact:** Evidence changes affect only elements connected through established and relevant dependencies.
+
+### 17.13 Evidence extraction test matrix
+
+| Test | Input / condition | Expected behavior |
+|---|---|---|
+| EX-T01 | PDF with extractable text | Preserve source and extracted text as separate objects. |
+| EX-T02 | Scanned PDF processed by OCR | Record OCR method, version, source location, and fidelity limitations. |
+| EX-T03 | Translation of a source document | Preserve original text and separately identify the translation. |
+| EX-T04 | AI-generated summary | Distinguish source content from omissions and model-introduced inferences. |
+| EX-T05 | One Input containing multiple propositions | Create separately identifiable extracted items with shared source lineage. |
+| EX-T06 | Multiple Inputs contributing to one Evidence item | Preserve each source's contribution and dependency. |
+| EX-T07 | Two reports with a common underlying source | Do not assume independent corroboration. |
+| EX-T08 | Reliable Evidence unrelated to a Claim | Do not use it to support that Claim. |
+| EX-T09 | Conflicting Evidence | Record conflict; do not automatically select one item. |
+| EX-T10 | Corrected extraction | Preserve prior extraction and create a traceable corrected version. |
+| EX-T11 | Evidence retraction | Review dependent Claims without automatic Finding reversal. |
+| EX-T12 | Derived Evidence from multiple logs | Preserve all materially contributing source and transformation lineage. |
+| EX-T13 | Authentic Input with no established Claim applicability | Preserve Input and extraction; do not change Claim Findings. |
+
+### 17.14 EU-S-01 integrated test
+
+For the fictional CV-ranking and automated-archiving scenario:
+
+- A delegation PDF is Input I-01. Its extracted text is X-01. Evidence E-01 may be assessed for C1 and, if its content and scope support it, C2 or C3. Receipt of the document does not establish the authority chain, scope, or temporal validity.
+- A ranking log is Input I-02 and may support E-02 for C5, subject to system and Activity linkage.
+- An archive log is Input I-03 and may support E-03 for C6, subject to the same type of linkage.
+- Operational configuration is Input I-04 and may be assessed for relevant scope and system relationships. It does not by itself establish authorization.
+- A model-generated report describing a relationship between ranking and archiving is Derived Information. It is not independent proof of C7. The underlying event and transaction relationships must be established.
+- An OCR or translation defect should affect only Evidence and Claims connected through established dependencies.
+
+No evidence item or extraction event automatically establishes a Finding or changes unrelated Claim states.
+
+---
+
+## 18. Working architectural decisions — Evidence Object Model
+
+**Decision status:** Proposed working architectural decisions for the Experimental Engineering Model. These are not Founder-approved program-level decisions, not validated requirements, and not BAES Foundation changes.
+
+| ID | Proposed decision | Rationale / boundary |
+|---|---|---|
+| ED-01 | Keep Input, Extracted Information, and Evidence as three distinct entities. | Preserves separation between source, extracted content, and claim-specific evidential use. |
+| ED-02 | Extraction alone must not promote information to valid or established Evidence. | Prevents extraction from being mistaken for source verification, applicability, or sufficiency. |
+| ED-03 | Every extraction must retain source location and transformation lineage. | Enables provenance review and identification of lossy or error-prone transformations. |
+| ED-04 | An Evidence Object may be supported by one or multiple Inputs. | Supports composite and multi-source evidence without collapsing source identity. |
+| ED-05 | Source independence must not be inferred from source count. | Prevents false corroboration when records share an underlying source or production dependency. |
+| ED-06 | Evidence applicability and sufficiency must be Claim- and purpose-dependent. | A source may be usable for one Claim and insufficient or irrelevant for another. |
+| ED-07 | Evidence Proposition, Claim, and Finding must remain distinct. | Prevents source content from being silently converted into an assessment conclusion. |
+| ED-08 | Derived Evidence must preserve all materially contributing sources and transformations. | Prevents model-generated or transformed outputs from acquiring unsupported evidential authority. |
+| ED-09 | Evidence correction, retraction, and supersession must preserve historical versions and relationships. | Supports historical reconstruction and controlled reassessment. |
+| ED-10 | Evidence changes may affect only Claims and assessment elements connected through established, relevant dependencies. | Enforces bounded impact and prevents uncertainty or change over-propagation. |
+
+### 18.1 Decision application and change control
+
+These decisions apply only to the current Experimental Engineering Model Working Design. They do not alter the frozen BAES Foundation, establish a new BAES requirement, or authorize publication of confidential BAES material.
+
+They remain open to revision through explicit design review and test evidence. Any later change should preserve the previous decision wording, record the reason for change, and assess downstream effects through established dependencies.
+
+### 18.2 Governing dependency principle
+
+The following principle remains controlling:
+
+> Uncertainty must be propagated according to established dependencies, not assumed associations.
+
+It applies to source lineage, Evidence-to-Claim mapping, multi-source aggregation, conflict handling, and reassessment impact.
+
+---
+
+## 19. Next design stage: Evidence Aggregation and Conflict Resolution
+
+The next open design task is to define how multiple Evidence Objects are assessed together for a Claim without relying on document counts, majority voting, assumed source independence, or generic numerical weights.
+
+The next stage should distinguish Evidence Convergence, Corroboration, Conflict, Source Independence, Claim-specific evidential relevance, and any criteria-based assessment of evidential importance. It should define how conjunctive, disjunctive, and conditional Claim structures affect evidence aggregation, and how unresolved conflicts constrain Findings.
+
+This stage remains open. No universal evidence-weighting formula or automatic conflict-resolution authority is established by the current design.

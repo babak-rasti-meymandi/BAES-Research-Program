@@ -3,7 +3,7 @@
 **Researcher:** Babak Rasti Meymandi  
 **Prepared:** 14 November 2026  
 **Last Updated:** 15 November 2026  
-**Version:** 0.1  
+**Version:** 0.2  
 **Document status:** Initial Academic Discussion Version  
 **Purpose:** Initial research discussion document for potential academic engagement with Maastricht University researchers, including MINDS and relevant research groups.
 
@@ -113,6 +113,12 @@ These activities are research and design work, not regulatory certification, con
 ## 5. Potential Areas of Academic Collaboration
 
 I believe Maastricht University may provide a valuable interdisciplinary research environment for examining these questions.
+
+### Why Maastricht University?
+
+Maastricht University presents a particularly relevant potential research environment for this work because of its interdisciplinary activities through [MINDS](https://www.maastrichtuniversity.nl/research/minds/about), its research in [Human–AI Interaction and hybrid intelligence](https://www.maastrichtuniversity.nl/department-advanced-computing-sciences/research/artificial_intelligence/human_AI_interaction) within the Department of Advanced Computing Sciences, and its research at the intersection of law, technology, and human oversight.
+
+These research directions provide meaningful points of connection with the questions explored by BAES, particularly the relationship between human authority, AI-assisted decision-making, authorization boundaries, and the evidence required to establish meaningful human oversight. I would welcome the opportunity to explore whether these complementary research interests could provide a basis for academic discussion and collaboration.
 
 Potential collaboration areas include:
 

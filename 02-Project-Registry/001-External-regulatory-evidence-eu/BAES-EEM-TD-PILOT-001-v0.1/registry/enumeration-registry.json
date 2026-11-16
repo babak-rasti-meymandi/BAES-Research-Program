@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "claim_states": [
+    "Not Started",
+    "Ready",
+    "In Progress",
+    "Finding Established",
+    "Finding Partially Established",
+    "Unproven",
+    "Finding Not Established",
+    "On Hold",
+    "Stopped",
+    "Not Applicable",
+    "Superseded"
+  ],
+  "dependency_statuses": [
+    "Not Evaluated",
+    "Available",
+    "In Progress",
+    "Established",
+    "Not Established",
+    "Blocked",
+    "On Hold",
+    "Invalidated",
+    "Superseded"
+  ],
+  "evidence_claim_applicability_statuses": [
+    "Not Assessed",
+    "Under Assessment",
+    "Usable for Claim",
+    "Usable with Restrictions",
+    "Insufficient for Claim",
+    "Not Applicable to Claim",
+    "Conflicted for Claim",
+    "Rejected for Specific Claim"
+  ],
+  "dataset_readiness": [
+    "Draft",
+    "Under Validation",
+    "Validated for Pilot Execution",
+    "Validated with Restrictions",
+    "On Hold",
+    "Rejected",
+    "Superseded"
+  ],
+  "record_statuses": [
+    "Draft",
+    "Active",
+    "Superseded",
+    "Retracted",
+    "Invalidated"
+  ]
+}

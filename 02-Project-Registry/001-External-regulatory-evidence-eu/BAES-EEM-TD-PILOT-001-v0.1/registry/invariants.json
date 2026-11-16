@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "invariants": [
+    "DS-INV-01 Stable Entity Identity",
+    "DS-INV-02 Explicit Entity Type",
+    "DS-INV-03 Versioned References",
+    "DS-INV-04 Model/Reference Isolation",
+    "DS-INV-05 Independent Evidence Identity",
+    "DS-INV-06 Explicit Relationship Status",
+    "DS-INV-07 Graph Separation",
+    "DS-INV-08 Historical Preservation",
+    "DS-INV-09 No Implicit Dependency",
+    "DS-INV-10 Finding/Review Separation",
+    "DS-INV-11 Output/Transition Separation",
+    "DS-INV-12 Reconstructable Test Run",
+    "DS-INV-13 Claim-Specific Evidence Assessment",
+    "DS-INV-14 No Hidden Ground Truth Inference"
+  ]
+}

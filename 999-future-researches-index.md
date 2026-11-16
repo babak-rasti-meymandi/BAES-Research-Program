@@ -11,6 +11,7 @@ This index groups research ideas and records that may be examined in the future.
 | [997-governance-effectiveness-and-evidence.md](997-governance-effectiveness-and-evidence.md) | From governance documentation to demonstrable governance effectiveness | Exploratory research |
 | [998-harmful-optimization-and-authorization-boundaries.md](998-harmful-optimization-and-authorization-boundaries.md) | Authorization boundaries and harmful optimization in Human–AI systems | Exploratory research |
 | [999-af-colleague.md](999-af-colleague.md) | Resolution Intelligence and emergent system states — independent colleague exchange | Exploratory research |
+| [Q8 — Engineering Model Design Patterns](01-Research-Tracks/Q8-Engineering-Model-Design-Patterns/README.md) | Exploratory analysis of reusable engineering-model design and evaluation patterns | Proposed; not active |
 
 ## Future Research Ideas
 
@@ -27,4 +28,3 @@ Ideas may be added here before a dedicated research record is created.
 - Do not infer BAES integration or endorsement from the existence of a research record.
 - Preserve confidentiality boundaries and the independence of external research participants.
 - Do not modify frozen BAES Foundation materials through entries in this index.
-

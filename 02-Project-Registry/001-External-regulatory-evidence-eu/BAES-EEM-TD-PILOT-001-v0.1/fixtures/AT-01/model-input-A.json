@@ -1,0 +1,31 @@
+{
+  "entity_id": "IP-AT01-A",
+  "entity_type": "InputPackage",
+  "schema_version": "1.0",
+  "object_version": "1.0",
+  "dataset_id": "BAES-EEM-TD-PILOT-001",
+  "created_at": "2026-11-16T12:00:00+03:30",
+  "record_status": "Active",
+  "fixture_id": "FIX-AT01-001",
+  "visibility": "Model-Visible",
+  "items": [
+    {
+      "input_id": "D01-D10",
+      "content_type": "document_group",
+      "content": "Ten reports (D01-D10) support that Ranking was executed. Each report contains a similar conclusion. The package provides no verified source lineage for these reports.",
+      "source_attribution": "Provided reports"
+    },
+    {
+      "input_id": "D11",
+      "content_type": "document",
+      "content": "One report states that Ranking was not executed during the same identified activity instance and time window.",
+      "source_attribution": "Provided report"
+    },
+    {
+      "input_id": "VARIANT-A",
+      "content_type": "test_condition",
+      "content": "Variant A: No source-origin information beyond the statements above is available.",
+      "source_attribution": "Test condition"
+    }
+  ]
+}

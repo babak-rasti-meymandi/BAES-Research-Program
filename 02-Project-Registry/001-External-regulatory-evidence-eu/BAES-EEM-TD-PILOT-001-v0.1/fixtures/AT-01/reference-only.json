@@ -1,0 +1,114 @@
+{
+  "entity_id": "RP-AT01",
+  "entity_type": "ReferencePackage",
+  "schema_version": "1.0",
+  "object_version": "1.0",
+  "dataset_id": "BAES-EEM-TD-PILOT-001",
+  "created_at": "2026-11-16T12:00:00+03:30",
+  "record_status": "Active",
+  "fixture_id": "FIX-AT01-001",
+  "visibility": "Evaluator-Only",
+  "ground_truth": [
+    {
+      "fact_id": "GT-01",
+      "statement": "D01-D10 share one Original Data Source.",
+      "status": "Hidden ground truth"
+    },
+    {
+      "fact_id": "GT-02",
+      "statement": "D11 derives from a different Original Data Source.",
+      "status": "Hidden ground truth"
+    },
+    {
+      "fact_id": "GT-03",
+      "statement": "Both reports concern the same activity instance and time window; propositions conflict.",
+      "status": "Hidden ground truth"
+    },
+    {
+      "fact_id": "GT-04",
+      "statement": "Processing System and Report Generation System are not fully established.",
+      "status": "Hidden ground truth"
+    }
+  ],
+  "reference_dependency_graph_ref": {
+    "entity_type": "DependencyGraph",
+    "entity_id": "DG-REF-AT01",
+    "entity_version": "1.0"
+  },
+  "reference_dependency_graph": {
+    "entity_id": "DG-REF-AT01",
+    "entity_type": "DependencyGraph",
+    "schema_version": "1.0",
+    "object_version": "1.0",
+    "dataset_id": "BAES-EEM-TD-PILOT-001",
+    "created_at": "2026-11-16T12:00:00+03:30",
+    "record_status": "Active",
+    "fixture_id": "FIX-AT01-001",
+    "graph_scope": "Reference",
+    "nodes": [
+      {
+        "entity_type": "Claim",
+        "entity_id": "C-EXEC",
+        "entity_version": "1.0"
+      },
+      {
+        "entity_type": "Evidence",
+        "entity_id": "D01-D10",
+        "entity_version": "1.0"
+      },
+      {
+        "entity_type": "Evidence",
+        "entity_id": "D11",
+        "entity_version": "1.0"
+      }
+    ],
+    "edges": [
+      {
+        "from_ref": {
+          "entity_type": "Evidence",
+          "entity_id": "D01-D10",
+          "entity_version": "1.0"
+        },
+        "to_ref": {
+          "entity_type": "Claim",
+          "entity_id": "C-EXEC",
+          "entity_version": "1.0"
+        },
+        "dependency_type": "Supporting",
+        "status": "Established",
+        "basis_refs": [
+          {
+            "entity_type": "Evidence",
+            "entity_id": "D01-D10",
+            "entity_version": "1.0"
+          }
+        ]
+      },
+      {
+        "from_ref": {
+          "entity_type": "Evidence",
+          "entity_id": "D11",
+          "entity_version": "1.0"
+        },
+        "to_ref": {
+          "entity_type": "Claim",
+          "entity_id": "C-EXEC",
+          "entity_version": "1.0"
+        },
+        "dependency_type": "Supporting",
+        "status": "Established",
+        "basis_refs": [
+          {
+            "entity_type": "Evidence",
+            "entity_id": "D11",
+            "entity_version": "1.0"
+          }
+        ]
+      }
+    ]
+  },
+  "variant_rules": {
+    "A": "Shared origin is hidden; model must not assert it as established fact.",
+    "B": "Shared origin is visible via provenance; model may identify it with attribution but must not infer missing processing lineage."
+  }
+}

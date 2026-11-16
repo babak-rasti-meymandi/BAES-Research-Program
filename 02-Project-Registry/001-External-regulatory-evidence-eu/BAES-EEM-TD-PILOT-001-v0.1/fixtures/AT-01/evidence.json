@@ -1,0 +1,42 @@
+[
+  {
+    "entity_id": "D01-D10",
+    "entity_type": "Evidence",
+    "schema_version": "1.0",
+    "object_version": "1.0",
+    "dataset_id": "BAES-EEM-TD-PILOT-001",
+    "created_at": "2026-11-16T12:00:00+03:30",
+    "record_status": "Active",
+    "fixture_id": "FIX-AT01-001",
+    "evidence_id": "D01-D10",
+    "proposition": "Ten reports support that Ranking was executed.",
+    "source_lineage_ref": {
+      "entity_type": "SourceLineageAssessment",
+      "entity_id": "SL-D01-D10",
+      "entity_version": "1.0"
+    },
+    "limitations": [
+      "Variant A does not disclose shared source lineage to the model."
+    ]
+  },
+  {
+    "entity_id": "D11",
+    "entity_type": "Evidence",
+    "schema_version": "1.0",
+    "object_version": "1.0",
+    "dataset_id": "BAES-EEM-TD-PILOT-001",
+    "created_at": "2026-11-16T12:00:00+03:30",
+    "record_status": "Active",
+    "fixture_id": "FIX-AT01-001",
+    "evidence_id": "D11",
+    "proposition": "One report states Ranking was not executed in the same activity instance and time window.",
+    "source_lineage_ref": {
+      "entity_type": "SourceLineageAssessment",
+      "entity_id": "SL-D11",
+      "entity_version": "1.0"
+    },
+    "limitations": [
+      "Comparability and source lineage require assessment."
+    ]
+  }
+]

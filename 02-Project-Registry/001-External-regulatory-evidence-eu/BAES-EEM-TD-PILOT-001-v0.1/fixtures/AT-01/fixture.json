@@ -1,0 +1,41 @@
+{
+  "entity_id": "FIX-AT01-001",
+  "entity_type": "Fixture",
+  "schema_version": "1.0",
+  "object_version": "1.0",
+  "dataset_id": "BAES-EEM-TD-PILOT-001",
+  "created_at": "2026-11-16T12:00:00+03:30",
+  "record_status": "Active",
+  "fixture_id": "FIX-AT01-001",
+  "test_case_ref": {
+    "entity_type": "TestCase",
+    "entity_id": "AT-01",
+    "entity_version": "1.0"
+  },
+  "fixture_purpose": "Test source independence, provenance visibility, conflict comparability, and prohibition of majority voting.",
+  "model_input_ref": {
+    "entity_type": "InputPackage",
+    "entity_id": "IP-AT01-A",
+    "entity_version": "1.0"
+  },
+  "reference_package_ref": {
+    "entity_type": "ReferencePackage",
+    "entity_id": "RP-AT01",
+    "entity_version": "1.0"
+  },
+  "assessment_package_ref": {
+    "entity_type": "AssessmentPackage",
+    "entity_id": "AP-AT01",
+    "entity_version": "1.0"
+  },
+  "expected_behavior_ref": {
+    "entity_type": "ExpectedBehaviorSet",
+    "entity_id": "EB-AT01",
+    "entity_version": "1.0"
+  },
+  "readiness": "Under Validation",
+  "variants": [
+    "A",
+    "B"
+  ]
+}

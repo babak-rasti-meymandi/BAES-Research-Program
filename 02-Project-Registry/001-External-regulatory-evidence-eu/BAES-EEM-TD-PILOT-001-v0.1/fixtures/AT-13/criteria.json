@@ -1,0 +1,28 @@
+[
+  {
+    "entity_id": "CR-IMPACT",
+    "entity_type": "Criteria",
+    "schema_version": "1.0",
+    "object_version": "1.0",
+    "dataset_id": "BAES-EEM-TD-PILOT-001",
+    "created_at": "2026-11-16T12:00:00+03:30",
+    "record_status": "Active",
+    "fixture_id": "FIX-AT13-001",
+    "criterion_id": "CR-IMPACT",
+    "criterion_type": "Assessment Requirement",
+    "statement": "Impact must be limited to claims connected by established or explicitly conditional dependencies."
+  },
+  {
+    "entity_id": "CR-STATE",
+    "entity_type": "Criteria",
+    "schema_version": "1.0",
+    "object_version": "1.0",
+    "dataset_id": "BAES-EEM-TD-PILOT-001",
+    "created_at": "2026-11-16T12:00:00+03:30",
+    "record_status": "Active",
+    "fixture_id": "FIX-AT13-001",
+    "criterion_id": "CR-STATE",
+    "criterion_type": "Test Behavior Requirement",
+    "statement": "Existing findings remain stable unless new evidence establishes a relevant basis for change."
+  }
+]

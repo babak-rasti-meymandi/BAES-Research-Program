@@ -1,0 +1,121 @@
+{
+  "entity_id": "RP-AT13",
+  "entity_type": "ReferencePackage",
+  "schema_version": "1.0",
+  "object_version": "1.0",
+  "dataset_id": "BAES-EEM-TD-PILOT-001",
+  "created_at": "2026-11-16T12:00:00+03:30",
+  "record_status": "Active",
+  "fixture_id": "FIX-AT13-001",
+  "visibility": "Evaluator-Only",
+  "ground_truth": [
+    {
+      "fact_id": "GT-01",
+      "statement": "E-04 demonstrates override in a test environment only.",
+      "status": "Established in scenario ground truth"
+    },
+    {
+      "fact_id": "GT-02",
+      "statement": "Test Environment and Production Environment equivalence is not established.",
+      "status": "Established in scenario ground truth"
+    },
+    {
+      "fact_id": "GT-03",
+      "statement": "E-04 has no established relationship to C1 or C5.",
+      "status": "Established in scenario ground truth"
+    },
+    {
+      "fact_id": "GT-04",
+      "statement": "E-04 is insufficient to establish C8 for the operational activity.",
+      "status": "Established in scenario ground truth"
+    }
+  ],
+  "reference_dependency_graph_ref": {
+    "entity_type": "DependencyGraph",
+    "entity_id": "DG-REF-AT13",
+    "entity_version": "1.0"
+  },
+  "reference_dependency_graph": {
+    "entity_id": "DG-REF-AT13",
+    "entity_type": "DependencyGraph",
+    "schema_version": "1.0",
+    "object_version": "1.0",
+    "dataset_id": "BAES-EEM-TD-PILOT-001",
+    "created_at": "2026-11-16T12:00:00+03:30",
+    "record_status": "Active",
+    "fixture_id": "FIX-AT13-001",
+    "graph_scope": "Reference",
+    "nodes": [
+      {
+        "entity_type": "Claim",
+        "entity_id": "C1",
+        "entity_version": "1.0"
+      },
+      {
+        "entity_type": "Claim",
+        "entity_id": "C5",
+        "entity_version": "1.0"
+      },
+      {
+        "entity_type": "Claim",
+        "entity_id": "C8",
+        "entity_version": "1.0"
+      },
+      {
+        "entity_type": "Evidence",
+        "entity_id": "E-01",
+        "entity_version": "1.0"
+      },
+      {
+        "entity_type": "Evidence",
+        "entity_id": "E-02",
+        "entity_version": "1.0"
+      },
+      {
+        "entity_type": "Evidence",
+        "entity_id": "E-03",
+        "entity_version": "1.0"
+      },
+      {
+        "entity_type": "Evidence",
+        "entity_id": "E-04",
+        "entity_version": "1.0"
+      }
+    ],
+    "edges": [
+      {
+        "from_ref": {
+          "entity_type": "Evidence",
+          "entity_id": "E-04",
+          "entity_version": "1.0"
+        },
+        "to_ref": {
+          "entity_type": "Claim",
+          "entity_id": "C8",
+          "entity_version": "1.0"
+        },
+        "dependency_type": "Supporting",
+        "status": "Established",
+        "basis_refs": [
+          {
+            "entity_type": "Evidence",
+            "entity_id": "E-04",
+            "entity_version": "1.0"
+          }
+        ]
+      }
+    ]
+  },
+  "source_lineage_assessments": [
+    {
+      "lineage_id": "SL-E04",
+      "declared_lineage": [
+        "Test environment demonstration system"
+      ],
+      "established_lineage": [
+        "Test environment demonstration system"
+      ],
+      "assessment_status": "Established"
+    }
+  ]
+}

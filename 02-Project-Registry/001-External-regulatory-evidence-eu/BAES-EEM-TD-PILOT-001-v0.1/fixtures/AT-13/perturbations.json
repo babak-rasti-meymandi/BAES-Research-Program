@@ -1,0 +1,83 @@
+{
+  "entity_id": "PT-AT13",
+  "entity_type": "PerturbationSet",
+  "schema_version": "1.0",
+  "object_version": "1.0",
+  "dataset_id": "BAES-EEM-TD-PILOT-001",
+  "created_at": "2026-11-16T12:00:00+03:30",
+  "record_status": "Active",
+  "fixture_id": "FIX-AT13-001",
+  "perturbations": [
+    {
+      "perturbation_id": "P01",
+      "change": "Add E-04 only.",
+      "expected_review_scope": [
+        "C8"
+      ],
+      "expected_finding_changes": []
+    },
+    {
+      "perturbation_id": "P02",
+      "change": "Establish software version relationship to production.",
+      "expected_review_scope": [
+        "C8"
+      ],
+      "expected_finding_changes": []
+    },
+    {
+      "perturbation_id": "P03",
+      "change": "Establish relationship to the operational activity instance.",
+      "expected_review_scope": [
+        "C8"
+      ],
+      "expected_finding_changes": []
+    },
+    {
+      "perturbation_id": "P04",
+      "change": "Provide independently relevant evidence about manager authority origin.",
+      "expected_review_scope": [
+        "C1"
+      ],
+      "expected_finding_changes": [
+        "Only if claim-specific sufficiency and relevance are established."
+      ]
+    },
+    {
+      "perturbation_id": "P05",
+      "change": "Provide evidence of actual human intervention during ranking execution.",
+      "expected_review_scope": [
+        "C8",
+        "C5"
+      ],
+      "expected_finding_changes": [
+        "Only to the extent established dependencies support the relevant claim."
+      ]
+    },
+    {
+      "perturbation_id": "P06",
+      "change": "Retract E-04.",
+      "expected_review_scope": [
+        "C8"
+      ],
+      "expected_finding_changes": [
+        "No automatic reversal; reassess prior basis and preserve history."
+      ]
+    },
+    {
+      "perturbation_id": "P07",
+      "change": "Replace E-04 with a production-version record.",
+      "expected_review_scope": [
+        "C8"
+      ],
+      "expected_finding_changes": [
+        "Not automatic; assess exact equivalence and applicability."
+      ]
+    },
+    {
+      "perturbation_id": "P08",
+      "change": "Add unrelated evidence.",
+      "expected_review_scope": [],
+      "expected_finding_changes": []
+    }
+  ]
+}

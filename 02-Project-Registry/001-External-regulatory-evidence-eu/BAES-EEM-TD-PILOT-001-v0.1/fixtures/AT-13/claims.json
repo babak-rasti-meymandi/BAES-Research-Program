@@ -1,0 +1,41 @@
+[
+  {
+    "entity_id": "C1",
+    "entity_type": "Claim",
+    "schema_version": "1.0",
+    "object_version": "1.0",
+    "dataset_id": "BAES-EEM-TD-PILOT-001",
+    "created_at": "2026-11-16T12:00:00+03:30",
+    "record_status": "Active",
+    "fixture_id": "FIX-AT13-001",
+    "claim_id": "C1",
+    "proposition": "The manager's authority to authorize the assessed activity originated from a valid delegation.",
+    "initial_state": "Unproven"
+  },
+  {
+    "entity_id": "C5",
+    "entity_type": "Claim",
+    "schema_version": "1.0",
+    "object_version": "1.0",
+    "dataset_id": "BAES-EEM-TD-PILOT-001",
+    "created_at": "2026-11-16T12:00:00+03:30",
+    "record_status": "Active",
+    "fixture_id": "FIX-AT13-001",
+    "claim_id": "C5",
+    "proposition": "CV Ranking was executed in the identified operational activity instance.",
+    "initial_state": "Finding Established"
+  },
+  {
+    "entity_id": "C8",
+    "entity_type": "Claim",
+    "schema_version": "1.0",
+    "object_version": "1.0",
+    "dataset_id": "BAES-EEM-TD-PILOT-001",
+    "created_at": "2026-11-16T12:00:00+03:30",
+    "record_status": "Active",
+    "fixture_id": "FIX-AT13-001",
+    "claim_id": "C8",
+    "proposition": "Human Override was available and effective in the assessed operational activity.",
+    "initial_state": "Unproven"
+  }
+]

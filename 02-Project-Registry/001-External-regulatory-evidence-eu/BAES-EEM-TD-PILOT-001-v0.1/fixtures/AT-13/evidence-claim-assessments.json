@@ -1,0 +1,95 @@
+[
+  {
+    "entity_id": "ECA-E04-C8",
+    "entity_type": "EvidenceClaimAssessment",
+    "schema_version": "1.0",
+    "object_version": "1.0",
+    "dataset_id": "BAES-EEM-TD-PILOT-001",
+    "created_at": "2026-11-16T12:00:00+03:30",
+    "record_status": "Active",
+    "fixture_id": "FIX-AT13-001",
+    "relationship_assessment_id": "ECA-E04-C8",
+    "evidence_ref": {
+      "entity_type": "Evidence",
+      "entity_id": "E-04",
+      "entity_version": "1.0"
+    },
+    "claim_ref": {
+      "entity_type": "Claim",
+      "entity_id": "C8",
+      "entity_version": "1.0"
+    },
+    "assessment_version": "1.0",
+    "applicability_status": "Usable with Restrictions",
+    "sufficiency_status": "Insufficient",
+    "relationship_status": "Under Assessment",
+    "basis_refs": [
+      {
+        "entity_type": "Evidence",
+        "entity_id": "E-04",
+        "entity_version": "1.0"
+      }
+    ],
+    "limitations": [
+      "Supports only the limited proposition that override was demonstrated in a test environment."
+    ]
+  },
+  {
+    "entity_id": "ECA-E04-C1",
+    "entity_type": "EvidenceClaimAssessment",
+    "schema_version": "1.0",
+    "object_version": "1.0",
+    "dataset_id": "BAES-EEM-TD-PILOT-001",
+    "created_at": "2026-11-16T12:00:00+03:30",
+    "record_status": "Active",
+    "fixture_id": "FIX-AT13-001",
+    "relationship_assessment_id": "ECA-E04-C1",
+    "evidence_ref": {
+      "entity_type": "Evidence",
+      "entity_id": "E-04",
+      "entity_version": "1.0"
+    },
+    "claim_ref": {
+      "entity_type": "Claim",
+      "entity_id": "C1",
+      "entity_version": "1.0"
+    },
+    "assessment_version": "1.0",
+    "applicability_status": "Not Applicable to Claim",
+    "sufficiency_status": "Insufficient",
+    "relationship_status": "Not Established",
+    "basis_refs": [],
+    "limitations": [
+      "No established dependency or proposition-level link to authority origin."
+    ]
+  },
+  {
+    "entity_id": "ECA-E04-C5",
+    "entity_type": "EvidenceClaimAssessment",
+    "schema_version": "1.0",
+    "object_version": "1.0",
+    "dataset_id": "BAES-EEM-TD-PILOT-001",
+    "created_at": "2026-11-16T12:00:00+03:30",
+    "record_status": "Active",
+    "fixture_id": "FIX-AT13-001",
+    "relationship_assessment_id": "ECA-E04-C5",
+    "evidence_ref": {
+      "entity_type": "Evidence",
+      "entity_id": "E-04",
+      "entity_version": "1.0"
+    },
+    "claim_ref": {
+      "entity_type": "Claim",
+      "entity_id": "C5",
+      "entity_version": "1.0"
+    },
+    "assessment_version": "1.0",
+    "applicability_status": "Not Applicable to Claim",
+    "sufficiency_status": "Insufficient",
+    "relationship_status": "Not Established",
+    "basis_refs": [],
+    "limitations": [
+      "No established dependency or proposition-level link to ranking execution."
+    ]
+  }
+]

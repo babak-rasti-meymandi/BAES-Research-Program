@@ -13,6 +13,9 @@ Tracks are managed here at program level. Each track must have a bounded questio
 | Q5 | AI-Assisted Engineering Failure Modes and Mitigations | Proposed | This repository |
 | Q6 | Assurance Cases, GSN, CAE, Claims, Arguments, and Evidence | Proposed | This repository |
 | Q7 | Systems and Software Engineering Standards | Proposed | This repository |
+| Q8 | Engineering Model Design Patterns | Proposed; scoping required | This repository |
+
+Q8's exploratory brief and candidate register are in [Q8 — Engineering Model Design Patterns](Q8-Engineering-Model-Design-Patterns/README.md). Its listing does not authorize activation or imply adoption into BAES.
 
 ## Track lifecycle
 

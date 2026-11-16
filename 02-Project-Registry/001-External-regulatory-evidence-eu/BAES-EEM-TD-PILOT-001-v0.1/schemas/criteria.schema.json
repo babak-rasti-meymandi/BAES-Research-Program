@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Criteria",
+  "type": "object",
+  "required": [
+    "entity_id",
+    "entity_type",
+    "schema_version",
+    "object_version",
+    "dataset_id",
+    "created_at",
+    "record_status",
+    "criterion_id",
+    "criterion_type",
+    "statement"
+  ],
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_type": {
+      "const": "Criteria"
+    },
+    "schema_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "object_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "dataset_id": {
+      "const": "BAES-EEM-TD-PILOT-001"
+    },
+    "fixture_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "record_status": {
+      "enum": [
+        "Draft",
+        "Active",
+        "Superseded",
+        "Retracted",
+        "Invalidated"
+      ]
+    },
+    "criterion_id": {
+      "type": "string"
+    },
+    "criterion_type": {
+      "enum": [
+        "Authorization Requirement",
+        "Engineering Requirement",
+        "Assessment Requirement",
+        "Test Behavior Requirement"
+      ]
+    },
+    "statement": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

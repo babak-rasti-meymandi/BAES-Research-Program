@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Test Run",
+  "type": "object",
+  "required": [
+    "entity_id",
+    "entity_type",
+    "schema_version",
+    "object_version",
+    "dataset_id",
+    "created_at",
+    "record_status",
+    "fixture_ref",
+    "model_identity",
+    "configuration",
+    "input_snapshot_hash",
+    "run_status"
+  ],
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_type": {
+      "const": "TestRun"
+    },
+    "schema_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "object_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "dataset_id": {
+      "const": "BAES-EEM-TD-PILOT-001"
+    },
+    "fixture_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "record_status": {
+      "enum": [
+        "Draft",
+        "Active",
+        "Superseded",
+        "Retracted",
+        "Invalidated"
+      ]
+    },
+    "fixture_ref": {
+      "type": "object",
+      "required": [
+        "entity_type",
+        "entity_id",
+        "entity_version"
+      ],
+      "properties": {
+        "entity_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entity_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entity_version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "model_identity": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "configuration": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "input_snapshot_hash": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "run_status": {
+      "enum": [
+        "Not Executed",
+        "Started",
+        "Completed",
+        "Failed",
+        "Aborted"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

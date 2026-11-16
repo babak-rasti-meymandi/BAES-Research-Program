@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reference Package",
+  "type": "object",
+  "required": [
+    "entity_id",
+    "entity_type",
+    "schema_version",
+    "object_version",
+    "dataset_id",
+    "created_at",
+    "record_status",
+    "visibility",
+    "ground_truth",
+    "reference_dependency_graph_ref"
+  ],
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_type": {
+      "const": "ReferencePackage"
+    },
+    "schema_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "object_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "dataset_id": {
+      "const": "BAES-EEM-TD-PILOT-001"
+    },
+    "fixture_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "record_status": {
+      "enum": [
+        "Draft",
+        "Active",
+        "Superseded",
+        "Retracted",
+        "Invalidated"
+      ]
+    },
+    "visibility": {
+      "const": "Evaluator-Only"
+    },
+    "ground_truth": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "fact_id",
+          "statement",
+          "status"
+        ],
+        "properties": {
+          "fact_id": {
+            "type": "string"
+          },
+          "statement": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "reference_dependency_graph_ref": {
+      "type": "object",
+      "required": [
+        "entity_type",
+        "entity_id",
+        "entity_version"
+      ],
+      "properties": {
+        "entity_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entity_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entity_version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "reference_dependency_graph": {
+      "type": "object"
+    },
+    "variant_rules": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "source_lineage_assessments": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "additionalProperties": false
+}

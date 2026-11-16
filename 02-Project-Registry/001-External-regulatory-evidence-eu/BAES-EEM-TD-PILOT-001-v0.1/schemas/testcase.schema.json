@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Test Case",
+  "type": "object",
+  "required": [
+    "entity_id",
+    "entity_type",
+    "schema_version",
+    "object_version",
+    "dataset_id",
+    "created_at",
+    "record_status",
+    "test_case_id",
+    "title",
+    "purpose"
+  ],
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_type": {
+      "const": "TestCase"
+    },
+    "schema_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "object_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "dataset_id": {
+      "const": "BAES-EEM-TD-PILOT-001"
+    },
+    "fixture_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "record_status": {
+      "enum": [
+        "Draft",
+        "Active",
+        "Superseded",
+        "Retracted",
+        "Invalidated"
+      ]
+    },
+    "test_case_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

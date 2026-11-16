@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dependency Graph",
+  "type": "object",
+  "required": [
+    "entity_id",
+    "entity_type",
+    "schema_version",
+    "object_version",
+    "dataset_id",
+    "created_at",
+    "record_status",
+    "graph_scope",
+    "nodes",
+    "edges"
+  ],
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_type": {
+      "const": "DependencyGraph"
+    },
+    "schema_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "object_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "dataset_id": {
+      "const": "BAES-EEM-TD-PILOT-001"
+    },
+    "fixture_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "record_status": {
+      "enum": [
+        "Draft",
+        "Active",
+        "Superseded",
+        "Retracted",
+        "Invalidated"
+      ]
+    },
+    "graph_scope": {
+      "enum": [
+        "Reference",
+        "Model-Available"
+      ]
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "entity_type",
+          "entity_id",
+          "entity_version"
+        ],
+        "properties": {
+          "entity_type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "entity_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "entity_version": {
+            "type": "string",
+            "pattern": "^[0-9]+\\.[0-9]+$"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "from_ref",
+          "to_ref",
+          "dependency_type",
+          "status",
+          "basis_refs"
+        ],
+        "properties": {
+          "from_ref": {
+            "type": "object",
+            "required": [
+              "entity_type",
+              "entity_id",
+              "entity_version"
+            ],
+            "properties": {
+              "entity_type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "entity_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "entity_version": {
+                "type": "string",
+                "pattern": "^[0-9]+\\.[0-9]+$"
+              }
+            },
+            "additionalProperties": false
+          },
+          "to_ref": {
+            "type": "object",
+            "required": [
+              "entity_type",
+              "entity_id",
+              "entity_version"
+            ],
+            "properties": {
+              "entity_type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "entity_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "entity_version": {
+                "type": "string",
+                "pattern": "^[0-9]+\\.[0-9]+$"
+              }
+            },
+            "additionalProperties": false
+          },
+          "dependency_type": {
+            "enum": [
+              "Essential",
+              "Supporting",
+              "Conditional",
+              "Exclusionary"
+            ]
+          },
+          "status": {
+            "enum": [
+              "Not Evaluated",
+              "Available",
+              "In Progress",
+              "Established",
+              "Not Established",
+              "Blocked",
+              "On Hold",
+              "Invalidated",
+              "Superseded"
+            ]
+          },
+          "basis_refs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "entity_type",
+                "entity_id",
+                "entity_version"
+              ],
+              "properties": {
+                "entity_type": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "entity_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "entity_version": {
+                  "type": "string",
+                  "pattern": "^[0-9]+\\.[0-9]+$"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

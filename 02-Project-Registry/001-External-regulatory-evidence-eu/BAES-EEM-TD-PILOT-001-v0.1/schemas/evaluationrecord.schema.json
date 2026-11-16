@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evaluation Record",
+  "type": "object",
+  "required": [
+    "entity_id",
+    "entity_type",
+    "schema_version",
+    "object_version",
+    "dataset_id",
+    "created_at",
+    "record_status",
+    "test_run_ref",
+    "criteria_results",
+    "outcome"
+  ],
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity_type": {
+      "const": "EvaluationRecord"
+    },
+    "schema_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "object_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "dataset_id": {
+      "const": "BAES-EEM-TD-PILOT-001"
+    },
+    "fixture_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "record_status": {
+      "enum": [
+        "Draft",
+        "Active",
+        "Superseded",
+        "Retracted",
+        "Invalidated"
+      ]
+    },
+    "test_run_ref": {
+      "type": "object",
+      "required": [
+        "entity_type",
+        "entity_id",
+        "entity_version"
+      ],
+      "properties": {
+        "entity_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entity_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entity_version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "criteria_results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "criterion_id",
+          "status"
+        ],
+        "properties": {
+          "criterion_id": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "Pass",
+              "Fail",
+              "Inconclusive",
+              "Not Executed"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "outcome": {
+      "enum": [
+        "Pass",
+        "Fail",
+        "Inconclusive",
+        "Design Defect Identified",
+        "Not Evaluated"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

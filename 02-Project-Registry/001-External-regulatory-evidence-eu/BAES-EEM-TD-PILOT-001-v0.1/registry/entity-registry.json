@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "entities": [
+    {
+      "entity_type": "Dataset",
+      "schema_file": "schemas/dataset.schema.json"
+    },
+    {
+      "entity_type": "TestCase",
+      "schema_file": "schemas/testcase.schema.json"
+    },
+    {
+      "entity_type": "Fixture",
+      "schema_file": "schemas/fixture.schema.json"
+    },
+    {
+      "entity_type": "InputPackage",
+      "schema_file": "schemas/inputpackage.schema.json"
+    },
+    {
+      "entity_type": "ReferencePackage",
+      "schema_file": "schemas/referencepackage.schema.json"
+    },
+    {
+      "entity_type": "AssessmentPackage",
+      "schema_file": "schemas/assessmentpackage.schema.json"
+    },
+    {
+      "entity_type": "ExpectedBehavior",
+      "schema_file": "schemas/expectedbehavior.schema.json"
+    },
+    {
+      "entity_type": "TestRun",
+      "schema_file": "schemas/testrun.schema.json"
+    },
+    {
+      "entity_type": "EvaluationRecord",
+      "schema_file": "schemas/evaluationrecord.schema.json"
+    },
+    {
+      "entity_type": "Activity",
+      "schema_file": "schemas/activity.schema.json"
+    },
+    {
+      "entity_type": "Claim",
+      "schema_file": "schemas/claim.schema.json"
+    },
+    {
+      "entity_type": "Criteria",
+      "schema_file": "schemas/criteria.schema.json"
+    },
+    {
+      "entity_type": "Evidence",
+      "schema_file": "schemas/evidence.schema.json"
+    },
+    {
+      "entity_type": "EvidenceClaimAssessment",
+      "schema_file": "schemas/evidenceclaimassessment.schema.json"
+    },
+    {
+      "entity_type": "DependencyGraph",
+      "schema_file": "schemas/dependencygraph.schema.json"
+    },
+    {
+      "entity_type": "SourceLineageAssessment",
+      "schema_file": "schemas/sourcelineageassessment.schema.json"
+    },
+    {
+      "entity_type": "ConflictRecord",
+      "schema_file": "schemas/conflictrecord.schema.json"
+    },
+    {
+      "entity_type": "Event",
+      "schema_file": "schemas/event.schema.json"
+    },
+    {
+      "entity_type": "StateTransition",
+      "schema_file": "schemas/statetransition.schema.json"
+    }
+  ]
+}

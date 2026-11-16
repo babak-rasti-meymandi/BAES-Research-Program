@@ -1,0 +1,21 @@
+{
+  "dataset_id": "BAES-EEM-TD-PILOT-001",
+  "dataset_version": "0.1",
+  "schema_version": "1.0",
+  "status": "Under Validation",
+  "created_at": "2026-11-16T12:00:00+03:30",
+  "fixtures": [
+    "FIX-AT01-001",
+    "FIX-AT04-001",
+    "FIX-AT13-001"
+  ],
+  "model_visible_files": "fixtures/*/model-input*.json and the explicitly referenced assessment package and evidence objects",
+  "evaluator_only_files": "fixtures/*/reference-only.json and fixtures/*/expected-behaviors.json",
+  "execution_status": "Not Executed",
+  "github_repository_modified": false,
+  "notes": [
+    "Ground truth is scenario ground truth, not independently verified real-world fact.",
+    "Dataset structural validity is not model validation.",
+    "AT-01 has two explicit input variants A and B."
+  ]
+}

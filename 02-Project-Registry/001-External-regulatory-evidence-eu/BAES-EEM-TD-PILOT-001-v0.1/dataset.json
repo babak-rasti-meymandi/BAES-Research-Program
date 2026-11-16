@@ -1,0 +1,38 @@
+{
+  "entity_id": "BAES-EEM-TD-PILOT-001",
+  "entity_type": "Dataset",
+  "schema_version": "1.0",
+  "object_version": "1.0",
+  "dataset_id": "BAES-EEM-TD-PILOT-001",
+  "created_at": "2026-11-16T12:00:00+03:30",
+  "record_status": "Active",
+  "dataset_name": "BAES Experimental Engineering Model Test Dataset — Pilot",
+  "dataset_version": "0.1",
+  "status": "Under Validation",
+  "fixture_refs": [
+    {
+      "entity_type": "Fixture",
+      "entity_id": "FIX-AT01-001",
+      "entity_version": "1.0"
+    },
+    {
+      "entity_type": "Fixture",
+      "entity_id": "FIX-AT04-001",
+      "entity_version": "1.0"
+    },
+    {
+      "entity_type": "Fixture",
+      "entity_id": "FIX-AT13-001",
+      "entity_version": "1.0"
+    }
+  ],
+  "logical_spaces": [
+    "Dataset Control Space",
+    "Test Definition Space",
+    "Model Input Space",
+    "Reference Space",
+    "Execution Space",
+    "Evaluation Space"
+  ],
+  "execution_status": "No model selected or executed; no Test Run or Evaluation Record exists."
+}

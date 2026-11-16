@@ -1,0 +1,830 @@
+{
+  "dataset_id": "BAES-EEM-TD-PILOT-001",
+  "dataset_version": "0.1",
+  "overall_status": "Under Validation",
+  "json_parse_results": [
+    {
+      "file": "SHA256SUMS.json",
+      "status": "Validated"
+    },
+    {
+      "file": "dataset.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-01/assessment-package.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-01/claims.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-01/criteria.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-01/evidence.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-01/expected-behaviors.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-01/fixture.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-01/model-available-dependency-graph.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-01/model-input-A.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-01/model-input-B.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-01/reference-only.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-04/assessment-package.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-04/claims.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-04/criteria.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-04/evidence-claim-assessments.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-04/evidence.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-04/expected-behaviors.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-04/fixture.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-04/model-available-dependency-graph.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-04/model-input.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-04/reference-only.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-13/assessment-package.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-13/claims.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-13/criteria.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-13/evidence-claim-assessments.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-13/evidence.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-13/expected-behaviors.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-13/fixture.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-13/model-available-dependency-graph.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-13/model-input.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-13/perturbations.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixtures/AT-13/reference-only.json",
+      "status": "Validated"
+    },
+    {
+      "file": "manifest.json",
+      "status": "Validated"
+    },
+    {
+      "file": "registry/entity-registry.json",
+      "status": "Validated"
+    },
+    {
+      "file": "registry/enumeration-registry.json",
+      "status": "Validated"
+    },
+    {
+      "file": "registry/invariants.json",
+      "status": "Validated"
+    },
+    {
+      "file": "registry/test-case-registry.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/activity.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/assessmentpackage.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/claim.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/conflictrecord.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/criteria.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/dataset.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/dependencygraph.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/entity-reference.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/evaluationrecord.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/event.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/evidence.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/evidenceclaimassessment.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/expectedbehavior.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/fixture.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/inputpackage.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/referencepackage.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/sourcelineageassessment.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/statetransition.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/testcase.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "schemas/testrun.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "validation/validation-plan.json",
+      "status": "Validated"
+    },
+    {
+      "file": "validation/validation-report.json",
+      "status": "Validated"
+    }
+  ],
+  "schema_meta_validation": [
+    {
+      "file": "activity.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "assessmentpackage.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "claim.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "conflictrecord.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "criteria.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "dataset.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "dependencygraph.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "entity-reference.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "evaluationrecord.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "event.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "evidence.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "evidenceclaimassessment.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "expectedbehavior.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "fixture.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "inputpackage.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "referencepackage.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "sourcelineageassessment.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "statetransition.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "testcase.schema.json",
+      "status": "Validated"
+    },
+    {
+      "file": "testrun.schema.json",
+      "status": "Validated"
+    }
+  ],
+  "entity_instance_validation": [
+    {
+      "fixture": "AT-01",
+      "file": "fixture.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-01",
+      "file": "claims.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-01",
+      "file": "evidence.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-01",
+      "file": "evidence.json",
+      "index": 1,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-01",
+      "file": "criteria.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-01",
+      "file": "model-available-dependency-graph.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-01",
+      "file": "assessment-package.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-01",
+      "file": "expected-behaviors.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-01",
+      "file": "reference-only.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-04",
+      "file": "fixture.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-04",
+      "file": "claims.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-04",
+      "file": "claims.json",
+      "index": 1,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-04",
+      "file": "evidence.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-04",
+      "file": "evidence.json",
+      "index": 1,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-04",
+      "file": "criteria.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-04",
+      "file": "criteria.json",
+      "index": 1,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-04",
+      "file": "evidence-claim-assessments.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-04",
+      "file": "evidence-claim-assessments.json",
+      "index": 1,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-04",
+      "file": "evidence-claim-assessments.json",
+      "index": 2,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-04",
+      "file": "model-available-dependency-graph.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-04",
+      "file": "assessment-package.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-04",
+      "file": "expected-behaviors.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-04",
+      "file": "reference-only.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "fixture.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "claims.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "claims.json",
+      "index": 1,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "claims.json",
+      "index": 2,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "evidence.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "evidence.json",
+      "index": 1,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "evidence.json",
+      "index": 2,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "evidence.json",
+      "index": 3,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "criteria.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "criteria.json",
+      "index": 1,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "evidence-claim-assessments.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "evidence-claim-assessments.json",
+      "index": 1,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "evidence-claim-assessments.json",
+      "index": 2,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "model-available-dependency-graph.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "assessment-package.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "expected-behaviors.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    },
+    {
+      "fixture": "AT-13",
+      "file": "reference-only.json",
+      "index": 0,
+      "status": "Validated",
+      "errors": []
+    }
+  ],
+  "cross_object_checks": [
+    {
+      "fixture": "AT-01",
+      "control": "ExpectedBehaviorTargetResolution",
+      "target": "C-EXEC",
+      "status": "Validated"
+    },
+    {
+      "fixture": "AT-01",
+      "control": "ExpectedBehaviorTargetResolution",
+      "target": "C-EXEC",
+      "status": "Validated"
+    },
+    {
+      "fixture": "AT-04",
+      "control": "ExpectedBehaviorTargetResolution",
+      "target": "C-AUTH",
+      "status": "Validated"
+    },
+    {
+      "fixture": "AT-04",
+      "control": "ExpectedBehaviorTargetResolution",
+      "target": "C-CFG",
+      "status": "Validated"
+    },
+    {
+      "fixture": "AT-13",
+      "control": "ExpectedBehaviorTargetResolution",
+      "target": "C1",
+      "status": "Validated"
+    },
+    {
+      "fixture": "AT-13",
+      "control": "ExpectedBehaviorTargetResolution",
+      "target": "C5",
+      "status": "Validated"
+    },
+    {
+      "fixture": "AT-13",
+      "control": "ExpectedBehaviorTargetResolution",
+      "target": "C8",
+      "status": "Validated"
+    }
+  ],
+  "leakage_checks": [
+    {
+      "fixture": "AT-01",
+      "model_input_scope": [
+        "model-input-A.json"
+      ],
+      "fact_id": "GT-01",
+      "status": "Validated",
+      "note": "AT-01 Variant B intentionally reveals source provenance; hidden-boundary scan uses Variant A only."
+    },
+    {
+      "fixture": "AT-01",
+      "model_input_scope": [
+        "model-input-A.json"
+      ],
+      "fact_id": "GT-02",
+      "status": "Validated",
+      "note": "AT-01 Variant B intentionally reveals source provenance; hidden-boundary scan uses Variant A only."
+    },
+    {
+      "fixture": "AT-01",
+      "model_input_scope": [
+        "model-input-A.json"
+      ],
+      "fact_id": "GT-03",
+      "status": "Validated",
+      "note": "AT-01 Variant B intentionally reveals source provenance; hidden-boundary scan uses Variant A only."
+    },
+    {
+      "fixture": "AT-01",
+      "model_input_scope": [
+        "model-input-A.json"
+      ],
+      "fact_id": "GT-04",
+      "status": "Validated",
+      "note": "AT-01 Variant B intentionally reveals source provenance; hidden-boundary scan uses Variant A only."
+    },
+    {
+      "fixture": "AT-04",
+      "model_input_scope": [
+        "model-input.json"
+      ],
+      "fact_id": "GT-01",
+      "status": "Validated",
+      "note": "Exact-string scan only."
+    },
+    {
+      "fixture": "AT-04",
+      "model_input_scope": [
+        "model-input.json"
+      ],
+      "fact_id": "GT-02",
+      "status": "Validated",
+      "note": "Exact-string scan only."
+    },
+    {
+      "fixture": "AT-04",
+      "model_input_scope": [
+        "model-input.json"
+      ],
+      "fact_id": "GT-03",
+      "status": "Validated",
+      "note": "Exact-string scan only."
+    },
+    {
+      "fixture": "AT-04",
+      "model_input_scope": [
+        "model-input.json"
+      ],
+      "fact_id": "GT-04",
+      "status": "Validated",
+      "note": "Exact-string scan only."
+    },
+    {
+      "fixture": "AT-13",
+      "model_input_scope": [
+        "model-input.json"
+      ],
+      "fact_id": "GT-01",
+      "status": "Validated",
+      "note": "Exact-string scan only."
+    },
+    {
+      "fixture": "AT-13",
+      "model_input_scope": [
+        "model-input.json"
+      ],
+      "fact_id": "GT-02",
+      "status": "Validated",
+      "note": "Exact-string scan only."
+    },
+    {
+      "fixture": "AT-13",
+      "model_input_scope": [
+        "model-input.json"
+      ],
+      "fact_id": "GT-03",
+      "status": "Validated",
+      "note": "Exact-string scan only."
+    },
+    {
+      "fixture": "AT-13",
+      "model_input_scope": [
+        "model-input.json"
+      ],
+      "fact_id": "GT-04",
+      "status": "Validated",
+      "note": "Exact-string scan only."
+    }
+  ],
+  "DV_controls": [
+    {
+      "id": "DV-01",
+      "name": "Referential Integrity",
+      "status": "Inconclusive",
+      "basis": "Expected-behavior target refs checked; exhaustive global and version-aware resolution across every embedded reference is not implemented."
+    },
+    {
+      "id": "DV-02",
+      "name": "Claim Integrity",
+      "status": "Validated",
+      "basis": "Claim entities have required identity/proposition/state fields and expected-behavior targets resolve in all fixtures."
+    },
+    {
+      "id": "DV-03",
+      "name": "Evidence Lineage Integrity",
+      "status": "Inconclusive",
+      "basis": "Lineage refs and AT-13 lineage assessment are present; complete lineage objects and independent provenance audit are not implemented."
+    },
+    {
+      "id": "DV-04",
+      "name": "Dependency Integrity",
+      "status": "Inconclusive",
+      "basis": "Reference and Model-Available graphs are separate; complete edge endpoint, dependency closure, and propagation checks are not implemented."
+    },
+    {
+      "id": "DV-05",
+      "name": "Ground Truth Consistency",
+      "status": "Inconclusive",
+      "basis": "Scenario ground truth has been authored against the handover descriptions but has not received independent semantic review."
+    },
+    {
+      "id": "DV-06",
+      "name": "Leakage Validation",
+      "status": "Validated",
+      "basis": "Exact ground-truth statement scan on hidden-information boundary: AT-01 Variant A and all model inputs for AT-04 and AT-13. Variant B intentionally exposes provenance. Limited lexical check only."
+    },
+    {
+      "id": "DV-07",
+      "name": "Expected Behavior Integrity",
+      "status": "Validated",
+      "basis": "Expected behavior entries include target claim refs, states, conditions, and prohibited inferences; target IDs resolve."
+    },
+    {
+      "id": "DV-08",
+      "name": "Output Schema Validation",
+      "status": "Not Executed",
+      "basis": "No model output schema/instances are in scope at dataset construction stage."
+    },
+    {
+      "id": "DV-09",
+      "name": "Cross-Fixture Coverage",
+      "status": "Inconclusive",
+      "basis": "Three requested fixtures are present; CFI-01 through CFI-07 interaction suite is not implemented."
+    }
+  ],
+  "not_performed": [
+    "Independent semantic review",
+    "Full version-aware referential integrity",
+    "Full dependency closure and impact propagation",
+    "Independent fixture review",
+    "Cross-fixture interaction suite CFI-01 to CFI-07",
+    "Model execution",
+    "Test run evaluation"
+  ]
+}

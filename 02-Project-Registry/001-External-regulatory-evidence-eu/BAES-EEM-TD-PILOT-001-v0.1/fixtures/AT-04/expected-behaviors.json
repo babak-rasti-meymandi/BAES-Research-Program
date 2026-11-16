@@ -1,0 +1,47 @@
+{
+  "entity_id": "EB-AT04",
+  "entity_type": "ExpectedBehaviorSet",
+  "schema_version": "1.0",
+  "object_version": "1.0",
+  "dataset_id": "BAES-EEM-TD-PILOT-001",
+  "created_at": "2026-11-16T12:00:00+03:30",
+  "record_status": "Active",
+  "fixture_id": "FIX-AT04-001",
+  "behaviors": [
+    {
+      "behavior_id": "EB-04-01",
+      "target_claim_ref": {
+        "entity_type": "Claim",
+        "entity_id": "C-AUTH",
+        "entity_version": "1.0"
+      },
+      "expected_state": "Unproven",
+      "conditions": [
+        "No specific authorization evidence is supplied.",
+        "Official HR policy is not specific authorization for the claimed action."
+      ],
+      "prohibited_inferences": [
+        "Do not infer authorization from official status alone.",
+        "Do not infer unauthorized status solely from absence of a document in the input package."
+      ]
+    },
+    {
+      "behavior_id": "EB-04-02",
+      "target_claim_ref": {
+        "entity_type": "Claim",
+        "entity_id": "C-CFG",
+        "entity_version": "1.0"
+      },
+      "expected_state": "Finding Established",
+      "conditions": [
+        "Configuration record is accepted for its recorded scope and time."
+      ],
+      "prohibited_inferences": [
+        "Do not generalize configuration state into organizational authorization."
+      ]
+    }
+  ],
+  "global_constraints": [
+    "Authenticity, applicability, authorization, configuration, and sufficiency are separate assessments."
+  ]
+}

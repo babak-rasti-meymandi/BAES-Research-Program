@@ -1,0 +1,37 @@
+{
+  "entity_id": "IP-AT04",
+  "entity_type": "InputPackage",
+  "schema_version": "1.0",
+  "object_version": "1.0",
+  "dataset_id": "BAES-EEM-TD-PILOT-001",
+  "created_at": "2026-11-16T12:00:00+03:30",
+  "record_status": "Active",
+  "fixture_id": "FIX-AT04-001",
+  "visibility": "Model-Visible",
+  "items": [
+    {
+      "input_id": "DOC-HR-01",
+      "content_type": "policy",
+      "content": "Official HR policy governing retention of applicant information. It addresses retention periods and handling of applicant records.",
+      "source_attribution": "Official organizational policy"
+    },
+    {
+      "input_id": "CFG-01",
+      "content_type": "configuration_record",
+      "content": "Configuration record shows that Automatic Archiving capability is enabled in the system.",
+      "source_attribution": "System configuration record"
+    },
+    {
+      "input_id": "CL-AUTH",
+      "content_type": "claim",
+      "content": "The organization authorized automatic archiving based on AI Ranking for the assessed activity.",
+      "source_attribution": "Assessment claim"
+    },
+    {
+      "input_id": "CL-CFG",
+      "content_type": "claim",
+      "content": "Automatic Archiving capability was enabled in the system configuration at the recorded time.",
+      "source_attribution": "Assessment claim"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "entity_id": "RP-AT04",
+  "entity_type": "ReferencePackage",
+  "schema_version": "1.0",
+  "object_version": "1.0",
+  "dataset_id": "BAES-EEM-TD-PILOT-001",
+  "created_at": "2026-11-16T12:00:00+03:30",
+  "record_status": "Active",
+  "fixture_id": "FIX-AT04-001",
+  "visibility": "Evaluator-Only",
+  "ground_truth": [
+    {
+      "fact_id": "GT-01",
+      "statement": "HR policy is authentic and official.",
+      "status": "Ground truth"
+    },
+    {
+      "fact_id": "GT-02",
+      "statement": "HR policy does not grant specific authority for AI-Ranking-based automatic archiving.",
+      "status": "Ground truth"
+    },
+    {
+      "fact_id": "GT-03",
+      "statement": "Configuration record establishes enabled capability only.",
+      "status": "Ground truth"
+    },
+    {
+      "fact_id": "GT-04",
+      "statement": "No specific authorization or delegation document is included in the model input package.",
+      "status": "Ground truth"
+    }
+  ],
+  "reference_dependency_graph_ref": {
+    "entity_type": "DependencyGraph",
+    "entity_id": "DG-REF-AT04",
+    "entity_version": "1.0"
+  },
+  "reference_dependency_graph": {
+    "entity_id": "DG-REF-AT04",
+    "entity_type": "DependencyGraph",
+    "schema_version": "1.0",
+    "object_version": "1.0",
+    "dataset_id": "BAES-EEM-TD-PILOT-001",
+    "created_at": "2026-11-16T12:00:00+03:30",
+    "record_status": "Active",
+    "fixture_id": "FIX-AT04-001",
+    "graph_scope": "Reference",
+    "nodes": [
+      {
+        "entity_type": "Claim",
+        "entity_id": "C-AUTH",
+        "entity_version": "1.0"
+      },
+      {
+        "entity_type": "Claim",
+        "entity_id": "C-CFG",
+        "entity_version": "1.0"
+      },
+      {
+        "entity_type": "Evidence",
+        "entity_id": "DOC-HR-01",
+        "entity_version": "1.0"
+      },
+      {
+        "entity_type": "Evidence",
+        "entity_id": "CFG-01",
+        "entity_version": "1.0"
+      }
+    ],
+    "edges": [
+      {
+        "from_ref": {
+          "entity_type": "Evidence",
+          "entity_id": "DOC-HR-01",
+          "entity_version": "1.0"
+        },
+        "to_ref": {
+          "entity_type": "Claim",
+          "entity_id": "C-AUTH",
+          "entity_version": "1.0"
+        },
+        "dependency_type": "Supporting",
+        "status": "Not Established",
+        "basis_refs": []
+      },
+      {
+        "from_ref": {
+          "entity_type": "Evidence",
+          "entity_id": "CFG-01",
+          "entity_version": "1.0"
+        },
+        "to_ref": {
+          "entity_type": "Claim",
+          "entity_id": "C-CFG",
+          "entity_version": "1.0"
+        },
+        "dependency_type": "Supporting",
+        "status": "Established",
+        "basis_refs": [
+          {
+            "entity_type": "Evidence",
+            "entity_id": "CFG-01",
+            "entity_version": "1.0"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -39,8 +39,8 @@ Research status must also be explicit: proposed, planned, active, completed, def
 
 - [BAES-Public](https://github.com/babak-rasti-meymandi/BAES-Public) — public BAES standard and documentation. See its [Foundation Status & Maturity Statement](https://github.com/babak-rasti-meymandi/BAES-Public/blob/main/06_BAES_Foundation_Status_and_Maturity.md) for the current public maturity position. This research program does not modify that repository.
 - [Human-AI-Authorization-Evaluation](https://github.com/babak-rasti-meymandi/Human-AI-Authorization-Evaluation) — a bounded, independent scenario-based evaluation project. Its existing S01 work and historical NIST/ISO analysis are not duplicated here.
-- Confidential BAES repository — outside this public program's working scope; its existence, contents, internal structure, and identifying details must not be reproduced, summarized, linked, or reconstructed here.
-- The existing private companion repository for the authorization-evaluation project remains private and outside this public record.
+- Confidential BAES material is excluded from this public program and must not be reproduced, summarized, linked, or reconstructed here.
+- Private companion materials for the authorization-evaluation project remain outside this public record.
 
 ## Repository policy
 
@@ -51,7 +51,7 @@ Do not copy confidential, licensed, personal, or otherwise restricted material i
 ## Current starting point
 
 The first proposed research priorities are:
-1. Q1 — External framework analysis. NIST AI RMF 1.0 validation is active. The ISO/IEC 42001:2023 workstream is currently Access / Terms Blocked pending verification of a permitted-use route; no substantive preview content has been processed. Q1 remains methodologically distinct from the historical C1–C20 mapping already recorded in the authorization-evaluation repository.
+1. Q1 — External framework analysis. NIST AI RMF 1.0 source extraction, investigator-side mapping review, and adversarial calibration are active; independent second-coder review remains pending. The ISO/IEC 42001:2023 workstream is currently Access / Terms Blocked pending verification of a permitted-use route; no substantive preview content has been processed. Q1 remains methodologically distinct from the historical C1–C20 mapping already recorded in the authorization-evaluation repository.
 2. Q2 — Academic literature on authority, delegation, control, assurance, and responsibility.
 3. Q3 — Empirical research on AI-assisted engineering and authorization/intent-preservation failures.
 4. Q6 — Assurance cases and evidence reasoning.

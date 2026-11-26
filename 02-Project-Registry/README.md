@@ -6,7 +6,6 @@ This registry shows where bounded projects live. It is an index, not a duplicate
 |---|---|---|---|---|
 | P-01 | Human authorization and semantic deviation evaluation (including S01) | [Human-AI-Authorization-Evaluation](https://github.com/babak-rasti-meymandi/Human-AI-Authorization-Evaluation) | Existing bounded independent evaluation; prior NIST/ISO comparative work is relevant input to Q1 | Phase 1 investigator-side documentary work recorded; Phase 2 deferred |
 | P-02 | BAES public standard and public explanatory material | [BAES-Public](https://github.com/babak-rasti-meymandi/BAES-Public) | Public standard repository; not managed or modified by this program | Existing repository |
-| P-03 | Confidential BAES working material | Confidential repository (not publicly identified) | Outside the public program's scope | Protected / frozen |
 | R-997 | [Governance Effectiveness and Evidence](997-governance-effectiveness-and-evidence/README.md) | This repository | Project workspace linked to the retained root-level planning record | Planned — not started |
 | R-998 | [Harmful Optimization and Authorization Boundaries](998-harmful-optimization-and-authorization-boundaries/README.md) | This repository | Project workspace linked to the retained root-level planning record | Planned — not started |
 | R-999 | [Resolution Intelligence and Emergent System States](999-resolution-intelligence-and-emergent-system-states/README.md) | This repository | Project workspace linked to the retained root-level planning record | Planned — not started |

@@ -2,8 +2,8 @@
 
 **Researcher:** Babak Rasti Meymandi  
 **Prepared:** 14 November 2026  
-**Last Updated:** 15 November 2026  
-**Version:** 0.2  
+**Last Updated:** 26 November 2026  
+**Version:** 0.3  
 **Document status:** Initial Academic Discussion Version  
 **Purpose:** Initial research discussion document for potential academic engagement with Maastricht University researchers, including MINDS and relevant research groups.
 
@@ -15,7 +15,7 @@ I am an independent software engineer, systems architect, and researcher with ap
 
 My current research focuses on the engineering relationship between humans and artificial intelligence systems, particularly the preservation of human authority, authorization boundaries, evidence, accountability, and meaningful human control in AI-assisted engineering activities.
 
-I am developing BAES (Babak AI Engineering Standard), an independent, technology-neutral standard for Human–AI Engineering Interaction.
+BAES (Babak AI Engineering Standard) is an established, independent, technology-neutral standard for Human–AI Engineering Interaction. Its foundational layer is established and documented; evidence-driven higher-layer development and independent validation continue.
 
 The underlying motivation is that the increasing technical capability of AI systems does not, by itself, establish their authority to make or execute engineering decisions.
 
@@ -42,9 +42,15 @@ A central research distinction is:
 
 The research does not assume that every AI-generated deviation is necessarily harmful or unauthorized. Rather, it investigates what evidence is required to establish whether a deviation was within the authority actually granted.
 
-## 3. BAES: Conceptual Foundation and Current Development
+## 3. BAES: Established Foundation and Current Development
 
-BAES is being developed as a technology-neutral engineering standard for Human–AI Engineering Interaction.
+BAES is an established, technology-neutral engineering standard for Human–AI Engineering Interaction. Its Foundation Baseline v1.0 and Conceptual Core v1.0 are frozen, and three Foundation Models have been registered. A review of Foundation Model sufficiency has not demonstrated an independent necessity for an additional Foundation Model at this stage.
+
+The established Foundation is available as a basis for engineering application and research evaluation. Higher architectural layers continue to develop according to engineering need and evidence. The Engineering Models layer definition remains in development, and one Engineering Model has been registered. The completion status of other higher layers is not asserted here and requires separate assessment.
+
+Independent validation of BAES as a whole has not been completed. The established Foundation must therefore be distinguished from claims about the effectiveness of particular applications or the independent validation of the complete standard.
+
+For the public maturity statement and its claim boundaries, see [BAES — Foundation Status & Maturity](https://github.com/babak-rasti-meymandi/BAES-Public/blob/main/06_BAES_Foundation_Status_and_Maturity.md).
 
 Its conceptual architecture distinguishes several areas, including:
 
@@ -57,9 +63,7 @@ Its conceptual architecture distinguishes several areas, including:
 - Governance
 - Human Override
 
-The Foundation Baseline, BAES-FND-001 v1.0, has been established and frozen as the current foundational baseline.
-
-Current work is deliberately moving beyond foundational expansion toward experimental Engineering Models, structured research, and evidence-based evaluation.
+The frozen Foundation Baseline provides a stable reference for subsequent engineering development. Current work is deliberately moving beyond foundational expansion toward experimental Engineering Models, structured research, and evidence-based evaluation.
 
 An important distinction is maintained between:
 

@@ -145,7 +145,7 @@ Phase 5 — Record findings and determine whether genuine architectural compleme
 ### 10. Research and Confidentiality Boundaries
 
 - Exchange only non-confidential information.
-- Do not disclose BAES-SECRET materials.
+- Do not disclose confidential BAES materials.
 - Do not modify frozen BAES Foundation documents.
 - Do not treat exploratory concepts as established BAES doctrine.
 - Preserve the independence of both architectures.

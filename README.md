@@ -39,7 +39,7 @@ Research status must also be explicit: proposed, planned, active, completed, def
 
 - [BAES-Public](https://github.com/babak-rasti-meymandi/BAES-Public) — public BAES standard and documentation. See its [Foundation Status & Maturity Statement](https://github.com/babak-rasti-meymandi/BAES-Public/blob/main/06_BAES_Foundation_Status_and_Maturity.md) for the current public maturity position. This research program does not modify that repository.
 - [Human-AI-Authorization-Evaluation](https://github.com/babak-rasti-meymandi/Human-AI-Authorization-Evaluation) — a bounded, independent scenario-based evaluation project. Its existing S01 work and historical NIST/ISO analysis are not duplicated here.
-- [BAES-SECRET](https://github.com/babak-rasti-meymandi/BAES-SECRET) — confidential repository. It is outside this public program's working scope and must not be reproduced, summarized, or reconstructed here.
+- Confidential BAES repository — outside this public program's working scope; its existence, contents, internal structure, and identifying details must not be reproduced, summarized, linked, or reconstructed here.
 - The existing private companion repository for the authorization-evaluation project remains private and outside this public record.
 
 ## Repository policy

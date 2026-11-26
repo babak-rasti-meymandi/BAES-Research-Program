@@ -19,9 +19,7 @@ A track's appearance on the roadmap is planning information, not authorization t
 |---|---|---|
 | BAES-Research-Program | Program governance, research plans, methods, source registers, cross-track synthesis, and public research outputs | No confidential BAES content; no duplication of detailed project records without a reason |
 | Human-AI-Authorization-Evaluation | Existing bounded authorization and semantic-deviation evaluation, including S01 and its associated evidence and historical comparative work | Keep its scenario-specific methods and findings in that project; link from here |
-| Private evaluation companion repository | Private working material for the companion evaluation project | Never copy private material into this public repository; do not identify or link the private repository in public records |
 | BAES-Public | Public BAES standard and related public material | No modification through this program; separate explicit approval required |
-| Confidential BAES repository | Confidential BAES material | Protected; no access, modification, disclosure, quotation, reconstruction, or derivative publication through this public program; do not identify or link the repository in public records |
 
 This table describes working boundaries, not a grant of access or permission to modify any repository.
 

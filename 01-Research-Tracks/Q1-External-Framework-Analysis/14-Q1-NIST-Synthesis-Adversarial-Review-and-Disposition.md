@@ -70,4 +70,4 @@ Primary source: [NIST AI 100-1 — Artificial Intelligence Risk Management Frame
 
 ---
 
-**Control note:** This record documents the review and its disposition. It does not alter BAES-Public, BAES-SECRET, or either S01 repository.
+**Control note:** This record documents the review and its disposition. It does not alter BAES-Public, confidential BAES material, or either S01 repository.

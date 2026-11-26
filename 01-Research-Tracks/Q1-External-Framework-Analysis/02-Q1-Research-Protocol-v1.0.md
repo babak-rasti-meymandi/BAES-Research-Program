@@ -59,7 +59,7 @@ An FDIS-era crosswalk may be used only as a lead-finding or contextual secondary
 
 ### 3.3 Excluded material
 
-No confidential BAES material, private project material, non-public correspondence, or material from BAES-SECRET may be used. No confidential BAES specification may be inferred from public layer names, labels, or adjacent concepts.
+No confidential BAES material, private project material, or non-public correspondence may be used. No confidential BAES specification may be inferred from public layer names, labels, or adjacent concepts.
 
 ## 4. Prior-work treatment and non-duplication
 

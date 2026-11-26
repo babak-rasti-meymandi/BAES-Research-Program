@@ -61,13 +61,9 @@ Before publication, check:
 
 If any boundary is uncertain, pause publication and ask the Founder.
 
-## 7. BAES identity and future naming
+## 7. BAES identity and sponsor arrangements
 
-The current name of BAES is not necessarily its final or unchangeable name. The present name identifies the standard's origin and current development stage; any future naming decision should preserve the historical record and continuity of the work.
-
-A sponsor formally recognized as holding a special position, such as a **Founding Sponsor** or **Principal Institutional Partner**, may submit a formal proposal for the future naming of BAES. That proposal will receive substantial weight and priority in the review and decision-making process.
-
-This recognition creates a meaningful right to propose, not a unilateral naming power. A sponsor's proposal does not transfer ownership or intellectual property, grant control over BAES architecture or standardization decisions, or create a veto. Unless a future, explicitly approved governance arrangement provides otherwise, the Founder retains final approval authority over any name change. The basis for special sponsor recognition and any associated recognition terms must be recorded in a separate written agreement.
+BAES identity, naming, and sponsor-recognition arrangements are outside the scope of this research-governance document. Any applicable terms are addressed only in separate collaboration/support documentation and written agreements. This research program does not create, grant, interpret, or administer sponsor naming rights.
 
 ## 8. External collaboration
 

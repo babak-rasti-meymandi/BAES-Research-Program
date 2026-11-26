@@ -6,7 +6,7 @@ Tracks are managed here at program level. Each track must have a bounded questio
 
 | ID | Track | Status | Initial repository |
 |---|---|---|---|
-| Q1 | External Framework Analysis — NIST AI RMF 1.0 and ISO/IEC 42001:2023 | Proposed; scoping required | This repository |
+| Q1 | External Framework Analysis — NIST AI RMF 1.0 and ISO/IEC 42001:2023 | Approved / active (2026-11-07) | This repository |
 | Q2 | Academic Literature — authority, delegation, control, assurance, and responsibility | Proposed | This repository |
 | Q3 | Empirical AI-Assisted Engineering Research | Proposed | This repository |
 | Q4 | Foundation-Model Terminology and Public Definitions | Proposed; deferred / low priority | This repository |

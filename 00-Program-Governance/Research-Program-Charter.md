@@ -16,7 +16,7 @@ Research may examine public BAES statements alongside external frameworks and ac
 
 Only public BAES materials may be used in this repository. Confidential BAES material is excluded.
 
-The current name of BAES is not necessarily its final or unchangeable name. A sponsor formally recognized as a Founding Sponsor or Principal Institutional Partner may submit a formal proposal for future naming; such a proposal is to receive substantial weight and priority in the relevant BAES decision process. This research program does not itself grant naming rights or decide a BAES name change. Any such proposal must be handled through the applicable BAES governance and approval process, without transferring ownership or control of the standard.
+BAES naming and sponsor-recognition arrangements are outside the scope of this research program. Any applicable terms are addressed only in separate collaboration/support documentation and written agreements. This charter does not create, grant, interpret, or administer sponsor naming rights.
 
 ## 3. Research independence
 

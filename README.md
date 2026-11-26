@@ -50,7 +50,7 @@ Do not copy confidential, licensed, personal, or otherwise restricted material i
 
 ## Current starting point
 
-The first proposed research priorities are:
+Current and proposed research priorities are:
 1. Q1 — External framework analysis. NIST AI RMF 1.0 source extraction, investigator-side mapping review, and adversarial calibration are active; independent second-coder review remains pending. The ISO/IEC 42001:2023 workstream is currently Access / Terms Blocked pending verification of a permitted-use route; no substantive preview content has been processed. Q1 remains methodologically distinct from the historical C1–C20 mapping already recorded in the authorization-evaluation repository.
 2. Q2 — Academic literature on authority, delegation, control, assurance, and responsibility.
 3. Q3 — Empirical research on AI-assisted engineering and authorization/intent-preservation failures.
